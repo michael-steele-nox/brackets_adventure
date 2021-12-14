@@ -1655,7 +1655,7 @@
           "name": "down_button",
           "persistentUuid": "00fe2da8-172d-4e7d-973e-654d624bddb1",
           "width": 192,
-          "x": 208,
+          "x": 192,
           "y": 784,
           "zOrder": 211,
           "numberProperties": [],
@@ -1671,7 +1671,7 @@
           "name": "up_button",
           "persistentUuid": "754b00fd-b7c4-4fd5-b302-56fb13369528",
           "width": 192,
-          "x": 208,
+          "x": 192,
           "y": 497,
           "zOrder": 214,
           "numberProperties": [],
@@ -1755,6 +1755,48 @@
           "y": 206,
           "zOrder": 201,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "UI",
+          "locked": false,
+          "name": "left_button",
+          "persistentUuid": "43ec8ecd-71c1-4172-b371-4c3e223d8d32",
+          "width": 192,
+          "x": 48,
+          "y": 640,
+          "zOrder": 216,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "UI",
+          "locked": false,
+          "name": "right_button",
+          "persistentUuid": "7d52198f-6fb1-4cd5-aea8-2fe5448a928d",
+          "width": 192,
+          "x": 335,
+          "y": 640,
+          "zOrder": 217,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
