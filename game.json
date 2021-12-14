@@ -511,7 +511,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.11000000000000258,
+        "zoomFactor": 0.37000000000000266,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1642,38 +1642,6 @@
           "x": -384,
           "y": 640,
           "zOrder": 103,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "UI",
-          "locked": false,
-          "name": "left_button",
-          "persistentUuid": "774c3e20-2cb3-4645-a3e8-59d33b290a81",
-          "width": 192,
-          "x": 64,
-          "y": 640,
-          "zOrder": 209,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "UI",
-          "locked": false,
-          "name": "right_button",
-          "persistentUuid": "636c5538-942b-4d1e-9f0b-470d8661cd32",
-          "width": 192,
-          "x": 352,
-          "y": 641,
-          "zOrder": 210,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
