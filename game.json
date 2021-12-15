@@ -511,7 +511,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.37000000000000266,
+        "zoomFactor": 0.3500000000000027,
         "windowMask": false
       },
       "objectsGroups": [
@@ -889,22 +889,6 @@
           "width": 448,
           "x": 1344,
           "y": -320,
-          "zOrder": 201,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "cloud",
-          "persistentUuid": "b9eb4ce3-4ddf-4b8f-a635-9d175d5ccf25",
-          "width": 448,
-          "x": 634,
-          "y": 206,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -1698,7 +1682,7 @@
           "angle": 0,
           "customSize": true,
           "height": 128,
-          "layer": "Background",
+          "layer": "",
           "locked": false,
           "name": "cloud",
           "persistentUuid": "eb5abc23-114a-41dd-a663-4db6698d4668",
@@ -1714,7 +1698,7 @@
           "angle": 0,
           "customSize": true,
           "height": 128,
-          "layer": "Background",
+          "layer": "",
           "locked": false,
           "name": "cloud",
           "persistentUuid": "5c0dd86c-fd26-4be7-8c27-92f00ce38702",
@@ -1738,22 +1722,6 @@
           "x": -2624,
           "y": -1024,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "cloud",
-          "persistentUuid": "6b5a7d34-aa93-405a-bc29-2c8b7da0d497",
-          "width": 448,
-          "x": 634,
-          "y": 206,
-          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1797,6 +1765,22 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "Version",
+          "persistentUuid": "9766b535-0743-462a-abcd-b157367b3d74",
+          "width": 0,
+          "x": 128,
+          "y": 128,
+          "zOrder": 218,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -2975,6 +2959,26 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Version",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "branch",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
         }
       ],
       "events": [
