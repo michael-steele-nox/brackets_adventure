@@ -511,7 +511,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.15000000000000263,
+        "zoomFactor": 0.6900000000000029,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1296,22 +1296,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "UI",
-          "locked": false,
-          "name": "Score",
-          "persistentUuid": "53bcbd55-fa0c-477f-8ad2-37ea9a982316",
-          "width": 192,
-          "x": 1600,
-          "y": 64,
-          "zOrder": 206,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1383,7 +1367,7 @@
           "name": "grid",
           "persistentUuid": "ff62c330-2ac7-4c65-bc6b-c372923a1ab9",
           "width": 5952,
-          "x": -2496,
+          "x": -2560,
           "y": -960,
           "zOrder": -12,
           "numberProperties": [],
@@ -1749,6 +1733,38 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "Score",
+          "persistentUuid": "0c1176c6-e22e-4b06-82c5-52d7e59e5849",
+          "width": 192,
+          "x": 1600,
+          "y": 64,
+          "zOrder": 206,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "UI",
+          "locked": false,
+          "name": "Version",
+          "persistentUuid": "1ee144b8-613b-4f27-9310-188bfa609fb5",
+          "width": 256,
+          "x": 128,
+          "y": 128,
+          "zOrder": 219,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -2927,6 +2943,26 @@
               ]
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Version",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "main",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
         }
       ],
       "events": [
