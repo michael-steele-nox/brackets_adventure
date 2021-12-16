@@ -480,6 +480,15 @@
         "name": "img\\platform_jumpthrough.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/platform_moving.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\platform_moving.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -511,7 +520,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.390000000000003,
+        "zoomFactor": 0.5500000000000035,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1344,31 +1353,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "UI",
-          "locked": false,
-          "name": "coin_gui",
-          "persistentUuid": "df479d7e-7a4f-421a-ab87-6be8e885a097",
-          "width": 0,
-          "x": 1503,
-          "y": 59,
-          "zOrder": 207,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
-          "height": 5632,
+          "height": 2944,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "grid",
           "persistentUuid": "ff62c330-2ac7-4c65-bc6b-c372923a1ab9",
-          "width": 6784,
-          "x": -2176,
-          "y": -3392,
+          "width": 3712,
+          "x": -1024,
+          "y": -1280,
           "zOrder": -12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1745,8 +1738,8 @@
           "name": "Score",
           "persistentUuid": "0c1176c6-e22e-4b06-82c5-52d7e59e5849",
           "width": 192,
-          "x": 1600,
-          "y": 64,
+          "x": 1636,
+          "y": 50,
           "zOrder": 206,
           "numberProperties": [],
           "stringProperties": [],
@@ -1780,6 +1773,38 @@
           "x": 1344,
           "y": -320,
           "zOrder": 201,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "coin_gui",
+          "persistentUuid": "21f667ac-49d1-43a7-a767-ba751426d051",
+          "width": 0,
+          "x": 1536,
+          "y": 45,
+          "zOrder": 207,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "platform_moving",
+          "persistentUuid": "af613d57-fb73-4ba9-91d4-03854a711782",
+          "width": 256,
+          "x": 0,
+          "y": 320,
+          "zOrder": 220,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2979,6 +3004,25 @@
             "g": 2,
             "r": 208
           }
+        },
+        {
+          "height": 32,
+          "name": "platform_moving",
+          "tags": "",
+          "texture": "img\\platform_moving.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "Jumpthru",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
