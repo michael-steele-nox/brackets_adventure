@@ -26,7 +26,34 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "img\\icon\\144x144.png",
+      "android-icon-192": "img\\icon\\192x192.png",
+      "android-icon-36": "img\\icon\\36x36.png",
+      "android-icon-48": "img\\icon\\48x48.png",
+      "android-icon-72": "img\\icon\\72x72.png",
+      "android-icon-96": "img\\icon\\96x96.png",
+      "desktop-icon-512": "img\\icon\\512x512.png",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -489,6 +516,366 @@
         "name": "img\\platform_moving.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_left-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_left-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_right-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_right-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_up.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_up-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_up-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_down.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_down-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_down-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/36x36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\36x36.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/48x48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\48x48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/72x72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\72x72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/96x96.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\96x96.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/144x144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\144x144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/192x192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\192x192.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/icon/512x512.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\icon\\512x512.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_jump-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_jump-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "music/Mind-Bender.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\Mind-Bender.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/Bubble-Gum-Puzzler.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\Bubble-Gum-Puzzler.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_pause.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/buttons/button_pause-pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\buttons\\button_pause-pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/arrow-left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\arrow-left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/arrow-right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\arrow-right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_5 - копия.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_5 - копия.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/heart/heart_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\heart\\heart_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/slime/slime_move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\slime\\slime_move_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/slime/slime_move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\slime\\slime_move_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/slime/slime_move_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\slime\\slime_move_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/slime/slime_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\slime\\slime_dead.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sounds/powerup-2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sounds\\powerup-2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "sounds/hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sounds\\hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -498,18 +885,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 209,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_321",
       "name": "Level 1",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 209,
+      "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 0,
       "uiSettings": {
         "grid": true,
         "gridType": "rectangular",
@@ -520,7 +907,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.5500000000000035,
+        "zoomFactor": 0.390000000000004,
         "windowMask": false
       },
       "objectsGroups": [
@@ -546,7 +933,11 @@
         },
         {
           "name": "Enemy",
-          "objects": []
+          "objects": [
+            {
+              "name": "Slime"
+            }
+          ]
         }
       ],
       "variables": [],
@@ -560,8 +951,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": -256,
-          "y": 896,
+          "x": 960,
+          "y": 192,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -575,8 +966,8 @@
           "locked": false,
           "name": "water",
           "persistentUuid": "27c15a34-1c2e-467e-87a9-e920e77ed84f",
-          "width": 384,
-          "x": 1152,
+          "width": 512,
+          "x": 2048,
           "y": 960,
           "zOrder": 200,
           "numberProperties": [],
@@ -591,9 +982,9 @@
           "locked": false,
           "name": "platform",
           "persistentUuid": "2475700a-721c-49dc-afc8-333b1e1e82a8",
-          "width": 320,
-          "x": -128,
-          "y": -384,
+          "width": 576,
+          "x": 320,
+          "y": -128,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -623,8 +1014,8 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "29893cff-01af-4bd4-87a1-09b1e5e52b9f",
-          "width": 832,
-          "x": -448,
+          "width": 896,
+          "x": -512,
           "y": 960,
           "zOrder": 10,
           "numberProperties": [],
@@ -634,14 +1025,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 448,
+          "height": 896,
           "layer": "",
           "locked": false,
           "name": "ladder",
           "persistentUuid": "e6992081-d08c-4f08-9a88-35e648a13d1b",
           "width": 64,
           "x": 1984,
-          "y": 256,
+          "y": -192,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -650,14 +1041,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 896,
           "layer": "",
           "locked": false,
           "name": "platform",
           "persistentUuid": "b2d7e805-533b-44cc-a1b1-6426453b607e",
-          "width": 256,
-          "x": 768,
-          "y": 0,
+          "width": 64,
+          "x": 2048,
+          "y": -192,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -688,8 +1079,8 @@
           "name": "coin_1",
           "persistentUuid": "e389f608-df49-49d1-9d17-34866f9fe4a1",
           "width": 0,
-          "x": 1792,
-          "y": 896,
+          "x": 1344,
+          "y": -384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -746,47 +1137,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "40caac1d-ea12-4f88-a508-a8bbcf7e25b8",
-          "width": 448,
-          "x": 2112,
-          "y": 960,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1792,
+          "height": 1536,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "fbc8db1b-e41d-4967-b628-1cd47b65af3c",
           "width": 64,
-          "x": 2048,
-          "y": -768,
+          "x": 2560,
+          "y": -512,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "coin_1",
-          "persistentUuid": "0fc0938c-6210-47b2-bd9c-a66962d6599e",
-          "width": 0,
-          "x": 1152,
-          "y": 256,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -816,8 +1175,8 @@
           "name": "coin_1",
           "persistentUuid": "98db7ca7-0405-49b0-9437-482b25ba9620",
           "width": 0,
-          "x": 1920,
-          "y": 896,
+          "x": 2240,
+          "y": -256,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -832,8 +1191,8 @@
           "name": "coin_2",
           "persistentUuid": "32f735f8-516b-4756-9541-095083b157d3",
           "width": 0,
-          "x": 1856,
-          "y": 896,
+          "x": 2304,
+          "y": -192,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -874,14 +1233,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "Bush",
           "persistentUuid": "66a85485-c4f6-4b71-b9b9-900b3af79b4d",
-          "width": 192,
-          "x": 384,
-          "y": 512,
+          "width": 320,
+          "x": -256,
+          "y": -448,
           "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
@@ -896,8 +1255,8 @@
           "name": "cloud",
           "persistentUuid": "78f5b143-01de-440b-9e24-41e7ef972ded",
           "width": 448,
-          "x": 1344,
-          "y": -320,
+          "x": 2048,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -912,8 +1271,8 @@
           "name": "cloud",
           "persistentUuid": "b9eb4ce3-4ddf-4b8f-a635-9d175d5ccf25",
           "width": 448,
-          "x": 640,
-          "y": 192,
+          "x": 1280,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -928,8 +1287,8 @@
           "name": "cloud",
           "persistentUuid": "49286742-9058-4457-a62f-da256d8bba11",
           "width": 448,
-          "x": 256,
-          "y": -320,
+          "x": -448,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -938,30 +1297,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 83,
-          "layer": "UI",
-          "locked": false,
-          "name": "heart_full",
-          "persistentUuid": "c546e863-5243-41e5-9951-0e0d501d728d",
-          "width": 94,
-          "x": 290,
-          "y": 45,
-          "zOrder": 203,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 83,
+          "height": 64,
           "layer": "UI",
           "locked": false,
           "name": "heart_empty",
           "persistentUuid": "fc845bd4-0f62-4b88-b405-63a24064cf73",
-          "width": 94,
-          "x": 410,
-          "y": 45,
+          "width": 64,
+          "x": 64,
+          "y": 64,
           "zOrder": 204,
           "numberProperties": [],
           "stringProperties": [],
@@ -970,78 +1313,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 83,
-          "layer": "UI",
-          "locked": false,
-          "name": "heart_full",
-          "persistentUuid": "df0670cc-e4a3-455c-8744-3a40a4b638f4",
-          "width": 94,
-          "x": 61,
-          "y": 45,
-          "zOrder": 203,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 83,
-          "layer": "UI",
-          "locked": false,
-          "name": "heart_empty",
-          "persistentUuid": "98081c17-d585-47c3-b61a-e126d5ddc023",
-          "width": 94,
-          "x": 61,
-          "y": 45,
-          "zOrder": 204,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 83,
-          "layer": "UI",
-          "locked": false,
-          "name": "heart_full",
-          "persistentUuid": "67d2b064-a3bd-4eea-91e1-f4a3a72fcf14",
-          "width": 94,
-          "x": 177,
-          "y": 45,
-          "zOrder": 203,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 83,
-          "layer": "UI",
-          "locked": false,
-          "name": "heart_empty",
-          "persistentUuid": "bbc124c8-3f52-47b7-8ad2-aa8063042d0f",
-          "width": 94,
-          "x": 177,
-          "y": 45,
-          "zOrder": 204,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1152,
+          "height": 64,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "0c7095eb-a6a2-4d3b-baa4-3a54836bc8a5",
-          "width": 64,
-          "x": -320,
-          "y": -256,
+          "width": 2944,
+          "x": -448,
+          "y": -512,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1066,47 +1345,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 384,
+          "height": 192,
           "layer": "",
           "locked": false,
           "name": "ladder",
           "persistentUuid": "a8ae198e-6104-4988-afdc-ab9c3616c383",
           "width": 64,
-          "x": 256,
-          "y": 576,
+          "x": 64,
+          "y": 384,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "grid",
-          "persistentUuid": "f284012a-d7f5-4f94-b0ac-9be2f72cb2dd",
-          "width": 0,
-          "x": 2044,
-          "y": -711,
-          "zOrder": 205,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "spikes",
-          "persistentUuid": "77a7a352-5fd3-4e9c-9095-60fc66345a97",
-          "width": 320,
-          "x": 384,
-          "y": 960,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1135,8 +1382,8 @@
           "locked": false,
           "name": "platform",
           "persistentUuid": "f36f2138-bbc6-4c6a-ab81-ff2f12f64311",
-          "width": 384,
-          "x": 320,
+          "width": 576,
+          "x": 256,
           "y": 576,
           "zOrder": 6,
           "numberProperties": [],
@@ -1200,8 +1447,8 @@
           "name": "coin_2",
           "persistentUuid": "f18726f5-32ee-437e-870e-477527cd9fdc",
           "width": 0,
-          "x": 1216,
-          "y": 192,
+          "x": 1472,
+          "y": -384,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -1232,8 +1479,8 @@
           "name": "coin_1",
           "persistentUuid": "c44e31cc-219d-44d1-a17b-9f9c735395f4",
           "width": 0,
-          "x": 320,
-          "y": 384,
+          "x": 0,
+          "y": -384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1293,27 +1540,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "coin_2",
-          "persistentUuid": "174b9721-b748-4fce-a839-8bc4fffa5108",
-          "width": 0,
-          "x": 384,
-          "y": 384,
-          "zOrder": 103,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "coin_1",
           "persistentUuid": "ab28a81e-e4b5-4211-bffb-186ca5787861",
           "width": 0,
-          "x": 1280,
-          "y": 256,
+          "x": 1408,
+          "y": -384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1343,8 +1574,8 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "20450a38-e3d7-4271-8888-08e04097d7a9",
-          "width": 512,
-          "x": 1088,
+          "width": 640,
+          "x": 1984,
           "y": 1024,
           "zOrder": 10,
           "numberProperties": [],
@@ -1354,14 +1585,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 2944,
+          "height": 3712,
           "layer": "",
           "locked": true,
           "name": "grid",
           "persistentUuid": "ff62c330-2ac7-4c65-bc6b-c372923a1ab9",
-          "width": 3712,
-          "x": -1024,
-          "y": -1280,
+          "width": 5056,
+          "x": -1536,
+          "y": -1472,
           "zOrder": -12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1391,9 +1622,9 @@
           "locked": false,
           "name": "platform_jumpthough",
           "persistentUuid": "8fe10f69-498a-468b-9e66-a23cbc3e77c9",
-          "width": 256,
-          "x": 768,
-          "y": 768,
+          "width": 64,
+          "x": 2496,
+          "y": -384,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1466,15 +1697,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 83,
+          "height": 64,
           "layer": "UI",
           "locked": false,
           "name": "heart_empty",
           "persistentUuid": "38785b95-2020-444e-8fa9-b709fc21e5ac",
-          "width": 94,
-          "x": 290,
-          "y": 45,
-          "zOrder": 204,
+          "width": 64,
+          "x": 256,
+          "y": 64,
+          "zOrder": 220,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1488,9 +1719,9 @@
           "name": "coin_2",
           "persistentUuid": "bf572080-1119-4656-9fea-aa408e3093c8",
           "width": 0,
-          "x": 320,
-          "y": 896,
-          "zOrder": 103,
+          "x": 192,
+          "y": 576,
+          "zOrder": 212,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1520,8 +1751,8 @@
           "name": "coin_2",
           "persistentUuid": "1333ef16-7e15-465d-a51e-27b45366846c",
           "width": 0,
-          "x": -384,
-          "y": -128,
+          "x": -256,
+          "y": -384,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -1552,8 +1783,8 @@
           "name": "coin_2",
           "persistentUuid": "6c4a3113-1f40-4829-813c-9a418de414f7",
           "width": 0,
-          "x": 256,
-          "y": 704,
+          "x": -128,
+          "y": -128,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -1578,14 +1809,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1728,
+          "height": 1472,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "e35208d0-42a1-46c8-a3b3-185dd2fe7833",
           "width": 64,
-          "x": -448,
-          "y": -768,
+          "x": -512,
+          "y": -512,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1599,9 +1830,9 @@
           "locked": false,
           "name": "platform",
           "persistentUuid": "097c6574-da28-443e-8fdd-4f9f18e41469",
-          "width": 192,
-          "x": 1152,
-          "y": 512,
+          "width": 64,
+          "x": 2496,
+          "y": -512,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1632,8 +1863,8 @@
           "name": "down_button",
           "persistentUuid": "00fe2da8-172d-4e7d-973e-654d624bddb1",
           "width": 192,
-          "x": 192,
-          "y": 784,
+          "x": 301,
+          "y": 802,
           "zOrder": 211,
           "numberProperties": [],
           "stringProperties": [],
@@ -1648,8 +1879,8 @@
           "name": "up_button",
           "persistentUuid": "754b00fd-b7c4-4fd5-b302-56fb13369528",
           "width": 192,
-          "x": 192,
-          "y": 497,
+          "x": 301,
+          "y": 515,
           "zOrder": 214,
           "numberProperties": [],
           "stringProperties": [],
@@ -1664,7 +1895,7 @@
           "name": "jump_button",
           "persistentUuid": "04e4aa81-a34a-4603-b1b2-eb97bbb5727d",
           "width": 0,
-          "x": 1600,
+          "x": 1472,
           "y": 640,
           "zOrder": 215,
           "numberProperties": [],
@@ -1696,8 +1927,8 @@
           "name": "left_button",
           "persistentUuid": "43ec8ecd-71c1-4172-b371-4c3e223d8d32",
           "width": 192,
-          "x": 48,
-          "y": 640,
+          "x": 157,
+          "y": 658,
           "zOrder": 216,
           "numberProperties": [
             {
@@ -1717,8 +1948,8 @@
           "name": "right_button",
           "persistentUuid": "7d52198f-6fb1-4cd5-aea8-2fe5448a928d",
           "width": 192,
-          "x": 335,
-          "y": 640,
+          "x": 444,
+          "y": 658,
           "zOrder": 217,
           "numberProperties": [
             {
@@ -1732,14 +1963,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 89,
           "layer": "UI",
           "locked": false,
           "name": "Score",
           "persistentUuid": "0c1176c6-e22e-4b06-82c5-52d7e59e5849",
-          "width": 192,
-          "x": 1636,
-          "y": 50,
+          "width": 298,
+          "x": 152,
+          "y": 164,
           "zOrder": 206,
           "numberProperties": [],
           "stringProperties": [],
@@ -1754,8 +1985,8 @@
           "name": "Version",
           "persistentUuid": "1ee144b8-613b-4f27-9310-188bfa609fb5",
           "width": 256,
-          "x": 128,
-          "y": 128,
+          "x": 1664,
+          "y": 960,
           "zOrder": 219,
           "numberProperties": [],
           "stringProperties": [],
@@ -1765,13 +1996,13 @@
           "angle": 0,
           "customSize": true,
           "height": 128,
-          "layer": "Background",
+          "layer": "",
           "locked": false,
           "name": "cloud",
           "persistentUuid": "d2e02382-9c2b-4aa5-a27b-55f8a87269d9",
           "width": 448,
-          "x": 1344,
-          "y": -320,
+          "x": 448,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -1786,8 +2017,8 @@
           "name": "coin_gui",
           "persistentUuid": "21f667ac-49d1-43a7-a767-ba751426d051",
           "width": 0,
-          "x": 1536,
-          "y": 45,
+          "x": 64,
+          "y": 173,
           "zOrder": 207,
           "numberProperties": [],
           "stringProperties": [],
@@ -1802,9 +2033,1977 @@
           "name": "platform_moving",
           "persistentUuid": "af613d57-fb73-4ba9-91d4-03854a711782",
           "width": 256,
-          "x": 0,
-          "y": 320,
+          "x": 960,
+          "y": -256,
           "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1088,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "f26fdab9-0bf7-4e29-a613-a37af069566a",
+          "width": 64,
+          "x": 128,
+          "y": -192,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "36710090-d5a0-4eb9-af16-b8062b569d74",
+          "width": 512,
+          "x": -320,
+          "y": -320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1152,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "1205ade6-5a47-49d0-bee6-687bce530473",
+          "width": 64,
+          "x": -320,
+          "y": -256,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "372a0620-0051-4052-b7b1-f04d68225b1a",
+          "width": 320,
+          "x": -192,
+          "y": 832,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "702dcf49-62b8-4340-a7ec-f112cf105f74",
+          "width": 320,
+          "x": -256,
+          "y": 704,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "fdbe36a9-97f9-40af-978d-05cc9ee56f57",
+          "width": 320,
+          "x": -192,
+          "y": 576,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "ba6467d3-6550-430e-b166-24cd1e98489e",
+          "width": 320,
+          "x": -256,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "567f7ca7-b863-4911-85f6-6ea9e382040d",
+          "width": 320,
+          "x": -192,
+          "y": 320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "71f758fb-2321-4244-99d5-b226cd6ea516",
+          "width": 320,
+          "x": -256,
+          "y": 192,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1152,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "aec1ac13-959a-4411-a4b6-352506392342",
+          "width": 64,
+          "x": 192,
+          "y": -192,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "41adeda1-13bd-4cd2-873c-8a991c8c11cf",
+          "width": 64,
+          "x": 64,
+          "y": 640,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "64a3e17e-c9e7-4b5b-a82b-0fb98c767a54",
+          "width": 64,
+          "x": -256,
+          "y": 768,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "ddeec903-5c96-427a-8e4d-689332f76df6",
+          "width": 64,
+          "x": -256,
+          "y": 512,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "3e3ae8ba-8215-45ef-8997-64d78638dd74",
+          "width": 64,
+          "x": -256,
+          "y": 256,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1280,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "f004b169-87cd-4846-877f-e6cc733e96a9",
+          "width": 64,
+          "x": -448,
+          "y": -320,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "b0ff95b1-8b49-458f-b9b1-9ca3b83cde5d",
+          "width": 64,
+          "x": 64,
+          "y": -128,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "fe839ee6-cbac-41d0-85a4-7979e73220e0",
+          "width": 320,
+          "x": -192,
+          "y": 64,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "54984740-23d5-4ef8-a6d7-7a18b149bb31",
+          "width": 320,
+          "x": -256,
+          "y": -64,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "e589e60e-6759-4461-8a46-ef7b6557aa51",
+          "width": 64,
+          "x": -256,
+          "y": -256,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "f6987bcd-4d44-475d-a218-05a4393f1a22",
+          "width": 64,
+          "x": -256,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "platform_moving",
+          "persistentUuid": "d866fb47-46cd-40f9-8a50-ff10bb7ef1df",
+          "width": 192,
+          "x": 1984,
+          "y": 768,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "8dfd0eaa-4cb1-401a-9d01-c45a485d0b87",
+          "width": 320,
+          "x": -192,
+          "y": -192,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "78571ec6-97ab-4f9b-85d4-9b8d3d83dd99",
+          "width": 0,
+          "x": 256,
+          "y": 384,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "99e038e1-26f3-465c-96de-d88b4d028a2a",
+          "width": 0,
+          "x": 320,
+          "y": 384,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "074c9189-5365-4abe-95f9-e6f86e8c368d",
+          "width": 0,
+          "x": -128,
+          "y": -384,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "17ac92ae-7f1e-468c-adb7-0e4528bae3ab",
+          "width": 0,
+          "x": -64,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "b0f19bfa-2c95-4648-9237-cb4b9c3c75e7",
+          "width": 0,
+          "x": -64,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "a906fa57-e5a6-4c3b-bab5-a82e3f313c32",
+          "width": 0,
+          "x": -128,
+          "y": 640,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "579f193f-68ca-409c-a16d-042bee381f55",
+          "width": 0,
+          "x": -192,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "ebb07a9b-382c-44aa-96d3-2bd04e7bd134",
+          "width": 0,
+          "x": 384,
+          "y": 384,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "03c4f272-75fb-4a22-81a6-2678427d3d61",
+          "width": 0,
+          "x": -128,
+          "y": 384,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "91285bc9-353c-4626-a046-103ea5d4c472",
+          "width": 0,
+          "x": -192,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "fae31c54-0f9e-47b9-b28e-63a094b30c6e",
+          "width": 0,
+          "x": -64,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "673bc7f7-0810-4de4-b7b8-009e39f30ae5",
+          "width": 64,
+          "x": 64,
+          "y": 128,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "87b56bad-b50d-4886-8623-ae4d32422a68",
+          "width": 0,
+          "x": -192,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "d523c66f-0411-4ca9-873b-96dcfe48ee94",
+          "width": 0,
+          "x": -64,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "98c3a446-c0ca-4222-953f-3d1badb79351",
+          "width": 0,
+          "x": -128,
+          "y": 128,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "d08a4985-f296-42f6-96f9-776ada57b720",
+          "width": 0,
+          "x": -384,
+          "y": -128,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "66e3bcf0-4cd7-47aa-bc2c-67b763c2093c",
+          "width": 0,
+          "x": -192,
+          "y": -256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "94e03b96-8961-4ca9-94d2-9976c24dd337",
+          "width": 0,
+          "x": -64,
+          "y": -256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "aea25be4-f4af-4f06-803f-df49fab073ed",
+          "width": 320,
+          "x": 384,
+          "y": 960,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "3efc1456-c82e-4ea4-9fd6-f8d4559b30d0",
+          "width": 0,
+          "x": 1792,
+          "y": 896,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "platform_moving",
+          "persistentUuid": "5de06bd5-134d-4e9e-82bd-8a48ddbf79dd",
+          "width": 256,
+          "x": 1280,
+          "y": 128,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "f87b1070-4b68-4c86-9ad0-0ab6205a7728",
+          "width": 0,
+          "x": 1856,
+          "y": -128,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "3222df1e-8360-45fe-8a8b-b8f44b2f9ec5",
+          "width": 0,
+          "x": 896,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "89aebecc-6fce-433d-a6d8-013a4a8c559a",
+          "width": 0,
+          "x": 1472,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "12a4d2d2-7fd8-411d-bf4e-5ecd184b9e25",
+          "width": 0,
+          "x": 1536,
+          "y": -384,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_empty",
+          "persistentUuid": "743b2ea9-191d-4a2b-bb0c-c5542073f8db",
+          "width": 64,
+          "x": 128,
+          "y": 64,
+          "zOrder": 204,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_1",
+          "persistentUuid": "cb83aab0-badc-43c0-a091-5c95ff97a807",
+          "width": 64,
+          "x": 64,
+          "y": 64,
+          "zOrder": 221,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "UI",
+          "locked": false,
+          "name": "pause_button",
+          "persistentUuid": "5ffbbcda-9532-455b-b22d-08c94e97c925",
+          "width": 192,
+          "x": 1664,
+          "y": 64,
+          "zOrder": 222,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "d0be5108-bd04-4332-a0a9-687031b2a622",
+          "width": 320,
+          "x": 768,
+          "y": 832,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "c73e9616-3068-4b7f-a59f-23e5e391708b",
+          "width": 320,
+          "x": 384,
+          "y": 448,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "water",
+          "persistentUuid": "d20c565e-b1ed-4914-a100-05c15450f0ba",
+          "width": 384,
+          "x": 1152,
+          "y": 960,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "01f664ea-b8a9-4906-9fc3-2ed54e673fa0",
+          "width": 0,
+          "x": 1856,
+          "y": 896,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "90852a09-bd50-46ac-b512-552a84f30571",
+          "width": 0,
+          "x": 1920,
+          "y": 896,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "3b60cfb0-7b1f-41b1-be3c-59375109df34",
+          "width": 0,
+          "x": 2368,
+          "y": -256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "d9b895f4-fe7b-4b48-bd31-0665e7dfc676",
+          "width": 512,
+          "x": 1088,
+          "y": 1024,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "8695c146-0955-4847-9eba-426e1a9eca19",
+          "width": 320,
+          "x": 1023,
+          "y": 704,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "5beba7ba-f39d-45e3-a59f-911a19564832",
+          "width": 64,
+          "x": 2112,
+          "y": 448,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "193f6233-dfb9-4093-b4a4-353f1722059d",
+          "width": 64,
+          "x": 2112,
+          "y": 256,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "854e3352-3403-4d93-baa9-80413fe14899",
+          "width": 64,
+          "x": 2112,
+          "y": 64,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "7b120073-c8f5-4b7e-80c3-13acc45f9b7a",
+          "width": 64,
+          "x": 2112,
+          "y": -128,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "5865e0ee-2306-4ce2-bf9d-2c10cf11832c",
+          "width": 64,
+          "x": 2496,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "c062d093-3c49-41d1-8c0d-35bfca7d5627",
+          "width": 640,
+          "x": 896,
+          "y": 384,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "de39cd44-7dfd-4922-ab76-383e173c00e7",
+          "width": 448,
+          "x": 1536,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "554141ae-41c1-45c9-9f33-69d27f56c124",
+          "width": 64,
+          "x": 2496,
+          "y": 576,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "ced8b652-e071-451e-8ef9-bc3d2462fae2",
+          "width": 64,
+          "x": 2496,
+          "y": 384,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "90fed6b4-c33f-4085-8672-e07f30311021",
+          "width": 64,
+          "x": 2496,
+          "y": 192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "a35cc3bb-c83c-49a2-83ff-b352a734ebee",
+          "width": 64,
+          "x": 2496,
+          "y": 0,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "12063f81-6a07-4ddd-b1e3-63861ec38e9c",
+          "width": 0,
+          "x": 2368,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "ad498ef3-5d6f-41d9-acb0-642584bc8ad4",
+          "width": 0,
+          "x": 2240,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "db3970f4-11b5-4a76-a97f-01af76cbfc23",
+          "width": 0,
+          "x": 2368,
+          "y": 384,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "7277bc2f-aeac-4e22-b464-5b88f7803de7",
+          "width": 0,
+          "x": 2240,
+          "y": 384,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "f05fa059-70eb-4395-a6d9-89c65a5ebae4",
+          "width": 0,
+          "x": 2304,
+          "y": 448,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "5ff3a4ed-b17a-4349-95b8-cd3b8d07cd2e",
+          "width": 0,
+          "x": 2368,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "1aae305d-ff6d-4fad-8dc9-bc9dd518a8a6",
+          "width": 0,
+          "x": 2240,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "c4072264-d165-4268-8681-20315cd88e86",
+          "width": 0,
+          "x": 2304,
+          "y": 320,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "38160eff-069b-4d0c-921c-88488aaf3de0",
+          "width": 0,
+          "x": 2368,
+          "y": 128,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "48ea99d2-0c15-4262-95ee-8cd2a37246c7",
+          "width": 0,
+          "x": 2240,
+          "y": 128,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "d6040441-60fa-46a8-b95f-a170cd4f2de3",
+          "width": 0,
+          "x": 2304,
+          "y": 192,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "da81dde8-2e6e-4e05-b8b6-5de92bd1e808",
+          "width": 0,
+          "x": 2368,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "9553bab5-285b-4e09-baf1-7ae735f1083d",
+          "width": 0,
+          "x": 2240,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "9d9a76dd-a931-481f-9792-bb0e572904aa",
+          "width": 0,
+          "x": 2304,
+          "y": 64,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "45daee57-1473-4b29-b08a-f676584b068e",
+          "width": 0,
+          "x": 2368,
+          "y": -128,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "9846c8f5-431b-44d5-b266-780babe916fa",
+          "width": 0,
+          "x": 2240,
+          "y": -128,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "ce9ecf0a-8b40-465d-a03a-4b3ab57969c3",
+          "width": 0,
+          "x": 2304,
+          "y": -64,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "6f144a2b-7e9a-4fd0-9263-670f75713372",
+          "width": 0,
+          "x": 1408,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "f173ea65-2c49-4519-a1cc-5f5f16c07382",
+          "width": 0,
+          "x": 1344,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "ccb9f8df-62b2-4c1a-bb8f-d68f7293ba74",
+          "width": 0,
+          "x": 1280,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "b689e2f8-87ec-4ef8-8941-c676b51a96ff",
+          "width": 0,
+          "x": 1216,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "9fa279f3-2be5-4466-9118-fb2cef4d06fb",
+          "width": 0,
+          "x": 1152,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "f128d9c4-6d54-436d-a48c-128fb74dce30",
+          "width": 0,
+          "x": 1088,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "9ac4bee0-c913-40a7-9ae4-2dfaa6f28cca",
+          "width": 0,
+          "x": 1024,
+          "y": 192,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_2",
+          "persistentUuid": "dc31757f-da96-4d81-9707-4bf4c07dbbbd",
+          "width": 64,
+          "x": 128,
+          "y": 64,
+          "zOrder": 223,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_3",
+          "persistentUuid": "32022787-8e23-401f-858e-6e2fe81bb71e",
+          "width": 64,
+          "x": 192,
+          "y": 64,
+          "zOrder": 224,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "896dacc5-f190-4d55-b42a-5d2cfc42178b",
+          "width": 0,
+          "x": 896,
+          "y": -256,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "36c9646f-d33c-4e56-83d7-dcd083d0fc23",
+          "width": 0,
+          "x": 192,
+          "y": 896,
+          "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "84c5f59b-641c-498a-b61b-37b6872a6379",
+          "width": 0,
+          "x": -448,
+          "y": 896,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "b4063a3e-6fd8-436f-afb1-b30e27dc5b14",
+          "width": 0,
+          "x": 1536,
+          "y": 128,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "5f4b4c8f-c2a8-4926-b8d5-41c26a0b094e",
+          "width": 0,
+          "x": 1920,
+          "y": 768,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "c9ec3539-dc6d-430e-b789-803cf05ef25e",
+          "width": 0,
+          "x": 2560,
+          "y": 768,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "heart_level",
+          "persistentUuid": "99fd8c88-7f74-491a-9473-c0d6f8c18623",
+          "width": 0,
+          "x": 64,
+          "y": -256,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "da989391-c367-4a9d-8a9b-bbf6f5e24397",
+          "width": 0,
+          "x": 192,
+          "y": 128,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "c490e92a-f24e-4b6d-ad97-f48cf63b9110",
+          "width": 0,
+          "x": 1984,
+          "y": -256,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "df0a05dd-8017-4794-bc01-bdcba462c09d",
+          "width": 0,
+          "x": 1472,
+          "y": -64,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "dce3efa9-90ab-4f58-95a0-8710da5457ba",
+          "width": 0,
+          "x": 1984,
+          "y": -64,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "a0363fcd-c084-4b79-94a1-b38e9e1750a2",
+          "width": 0,
+          "x": 1792,
+          "y": -64,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "94dc78e4-8ab7-48fe-a819-7513962798fe",
+          "width": 0,
+          "x": 128,
+          "y": 896,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "f9f121d5-719c-4a6d-8186-5fa1f6e9ccaa",
+          "width": 0,
+          "x": 1536,
+          "y": 320,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "f10e95c0-15bd-4fe6-8e0d-d041eb7b7ecc",
+          "width": 0,
+          "x": 832,
+          "y": 320,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "f4274048-99c5-4c3c-b618-ede6d1dc81e2",
+          "width": 0,
+          "x": 1472,
+          "y": 320,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "382e34d6-fcc4-470e-b5e1-1364722e0c4e",
+          "width": 0,
+          "x": 256,
+          "y": -192,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "3f82a8e0-bc9f-4105-9e79-ee71b223cec6",
+          "width": 0,
+          "x": 889,
+          "y": -192,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "b216d19b-0715-4dac-965d-90b935dab962",
+          "width": 0,
+          "x": 320,
+          "y": -192,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "3fcfea56-82e8-44ae-87cb-b58e4333ddb4",
+          "width": 0,
+          "x": 960,
+          "y": 256,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "b552a8b8-d787-4eb6-97e6-e38815c63003",
+          "width": 0,
+          "x": 832,
+          "y": 512,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "a9d5921e-b66f-4184-85b8-8f98926810e4",
+          "width": 0,
+          "x": 192,
+          "y": 512,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "65e99aaf-447d-4bbb-91d9-3f053a9b2f6e",
+          "width": 0,
+          "x": 256,
+          "y": 512,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "heart_level",
+          "persistentUuid": "56257fe2-09de-443b-9727-211da7162018",
+          "width": 0,
+          "x": 2304,
+          "y": -320,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "heart_level",
+          "persistentUuid": "e59b2e12-4358-4a28-8fb2-b467daa47a17",
+          "width": 0,
+          "x": 1792,
+          "y": 448,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "heart_level",
+          "persistentUuid": "7a3084b5-3c27-4d84-b3fd-8750673d3964",
+          "width": 0,
+          "x": 1152,
+          "y": 576,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_empty",
+          "persistentUuid": "5e726a60-25e0-4a34-9dfc-d20da1a70382",
+          "width": 64,
+          "x": 192,
+          "y": 64,
+          "zOrder": 220,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "UI",
+          "locked": false,
+          "name": "heart_4",
+          "persistentUuid": "84d65af8-df32-4388-aa76-6fa473d9a9c5",
+          "width": 64,
+          "x": 256,
+          "y": 64,
+          "zOrder": 229,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1814,7 +4013,7 @@
         {
           "height": 32,
           "name": "bg",
-          "tags": "",
+          "tags": "bg",
           "texture": "img\\bg.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -2186,7 +4385,17 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "leftEdgeAnchor": 1,
+              "bottomEdgeAnchor": 0,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2686,13 +4895,173 @@
           ]
         },
         {
-          "name": "heart_full",
+          "name": "heart_1",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart_full.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "heart_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart_full.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "heart_4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart_full.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "heart_3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2732,7 +5101,17 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2775,14 +5154,24 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "leftEdgeAnchor": 1,
+              "bottomEdgeAnchor": 0,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
           "string": "0",
           "font": "font\\Newsgeek.ttf",
-          "characterSize": 64,
+          "characterSize": 96,
           "color": {
             "b": 254,
             "g": 19,
-            "r": 46
+            "r": 144
           }
         },
         {
@@ -2792,10 +5181,20 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "Normal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2804,7 +5203,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "img\\button_left.png",
+                      "image": "img\\buttons\\button_left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_left-pressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2832,10 +5260,20 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "Normal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2844,7 +5282,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "img\\button_right.png",
+                      "image": "img\\buttons\\button_right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_right-pressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2872,10 +5339,20 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "Normal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2884,7 +5361,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "img\\button_down.png",
+                      "image": "img\\buttons\\button_down.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_down-pressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2912,10 +5418,20 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "Normal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2924,7 +5440,36 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "img\\button_up.png",
+                      "image": "img\\buttons\\button_up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_up-pressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2952,10 +5497,20 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 1,
+              "leftEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "animations": [
             {
-              "name": "",
+              "name": "Normal",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -2964,7 +5519,115 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "img\\button_jump.png",
+                      "image": "img\\buttons\\button_jump.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_jump-pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pause_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "topEdgeAnchor": 1,
+              "bottomEdgeAnchor": 1,
+              "leftEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_pause.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\buttons\\button_pause-pressed.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2995,7 +5658,17 @@
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": false,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
           "string": "main",
           "font": "font\\Newsgeek.ttf",
           "characterSize": 100,
@@ -3016,16 +5689,453 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "GoRight",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GoLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "heart_level",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\heart\\heart_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slime",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 5000,
+              "canGrabPlatforms": false,
+              "deceleration": 5000,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 75,
+              "slopeMaxAngle": 0,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\slime\\slime_move_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\slime\\slime_move_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\slime\\slime_move_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\slime\\slime_dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "music\\Mind-Bender.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -3070,6 +6180,33 @@
             "includeConfig": 0
           },
           "target": "CameraManagement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "MovingPlatforms"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "EnemyMovement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "LifeManagement"
         }
       ],
       "layers": [
@@ -3131,6 +6268,10 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
         },
@@ -3141,14 +6282,18 @@
         {
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Main_32menu",
-      "name": "Main menu",
+      "mangledName": "MainMenu",
+      "name": "MainMenu",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -3158,24 +6303,140 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 64,
+        "gridHeight": 64,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 1,
+        "gridColor": 9442302,
+        "gridAlpha": 0.2,
+        "snap": true,
+        "zoomFactor": 0.1999999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "Background",
+          "locked": true,
+          "name": "bg",
+          "persistentUuid": "61d9614d-0259-435a-a374-faa2f35eeecf",
+          "width": 2304,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1408,
+          "layer": "Background",
+          "locked": true,
+          "name": "grid",
+          "persistentUuid": "05ab8496-9c68-482a-999d-d4bf97cbe79a",
+          "width": 2176,
+          "x": -128,
+          "y": -128,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 64,
+          "name": "bg",
+          "tags": "",
+          "texture": "img\\bg.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "grid",
+          "tags": "",
+          "texture": "img\\grid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "music\\Bubble-Gum-Puzzler.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
       "layers": [
+        {
+          "ambientLightColorB": 33554432,
+          "ambientLightColorG": 6025840,
+          "ambientLightColorR": 8587336,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
         {
           "ambientLightColorB": 8054936,
           "ambientLightColorG": 150995054,
@@ -3199,7 +6460,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        }
+      ]
     }
   ],
   "externalEvents": [
@@ -3290,7 +6556,7 @@
                 "",
                 "sounds\\Pickup_Coin63.wav",
                 "",
-                "",
+                "50",
                 ""
               ],
               "subInstructions": []
@@ -3444,7 +6710,7 @@
                 "",
                 "sounds\\Pickup_Coin63.wav",
                 "",
-                "",
+                "50",
                 ""
               ],
               "subInstructions": []
@@ -3677,6 +6943,51 @@
                     "yes"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "left_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "left_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "left_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3720,6 +7031,51 @@
                   "parameters": [
                     "hero",
                     "no"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "right_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "right_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "right_button",
+                    "\"Normal\""
                   ],
                   "subInstructions": []
                 }
@@ -3767,6 +7123,51 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "up_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "up_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "up_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3812,6 +7213,51 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "down_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "down_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "down_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3846,8 +7292,174 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "jump_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "jump_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "jump_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "hero",
+                    "\"MainMenu\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -3969,7 +7581,7 @@
                     "",
                     "sounds\\jump.wav",
                     "no",
-                    "",
+                    "50",
                     ""
                   ],
                   "subInstructions": []
@@ -4292,6 +7904,1183 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level 1",
+      "lastChangeTimeStamp": 0,
+      "name": "MovingPlatforms",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "GoRight"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "GoLeft"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GoLeft",
+                "platform_moving",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "platform_moving"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "platform_moving",
+                "-150",
+                "0",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GoRight",
+                "platform_moving",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "platform_moving"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "platform_moving",
+                "150",
+                "0",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level 1",
+      "lastChangeTimeStamp": 0,
+      "name": "EnemyMovement",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Fly",
+                "PlatformerObject",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Enemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Enemies movement. Note that we made a very simple movement here, that could be put in a separate behavior. You may want to explore behaviors available for objects and combine them with events to do more complex logic for the enemies.",
+              "comment2": ""
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "GoLeft",
+                    "Enemy",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "GoingLeft",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "GoRight",
+                    "Enemy",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "GoingLeft",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "GoingLeft",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Fly",
+                    "-300",
+                    "0",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "no"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "GoingLeft",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Fly",
+                    "300",
+                    "0",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Collision with the player:",
+              "comment2": "Gestion des collisions avec le joueur:"
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Enemy",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeAnimation"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "PlatformerObject",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::Gravity"
+                      },
+                      "parameters": [
+                        "Enemy",
+                        "PlatformerObject",
+                        "=",
+                        "1500"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SetCanJump"
+                      },
+                      "parameters": [
+                        "hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "jump.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemy",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Score",
+                            "+",
+                            "50"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PlatformBehavior::IsFalling"
+                      },
+                      "parameters": [
+                        "hero",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "PlayerJustDead",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Enemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "Enemy",
+                "Tween",
+                "\"FadeOut\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "Enemy",
+                "Tween",
+                "\"FadeOut\"",
+                "0",
+                "\"easeOutQuad\"",
+                "1500",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Level 1",
+      "lastChangeTimeStamp": 0,
+      "name": "LifeManagement",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "heart_4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "heart_3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "heart_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "heart_1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Enemy",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "Enemy",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds\\hurt.wav",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Life",
+                "<",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "heart_level",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "heart_level",
+                    "=",
+                    "255"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "heart_level",
+                    "=",
+                    "254"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds\\powerup-2.wav",
+                    "",
+                    "50",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectOpacityTween"
+                  },
+                  "parameters": [
+                    "heart_level",
+                    "Tween",
+                    "\"FadeOut\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "700",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "heart_level",
+                    "Tween",
+                    "\"MoveUp\"",
+                    "heart_level.Y()-50",
+                    "\"easeOutQuad\"",
+                    "700",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "heart_1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "heart_2",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "heart_3",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Life",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "heart_4",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ]
     }
