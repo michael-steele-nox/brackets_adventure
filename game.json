@@ -907,7 +907,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.390000000000004,
+        "zoomFactor": 0.17000000000000356,
         "windowMask": false
       },
       "objectsGroups": [
@@ -938,6 +938,17 @@
               "name": "Slime"
             }
           ]
+        },
+        {
+          "name": "ElementalForce",
+          "objects": [
+            {
+              "name": "spikes"
+            },
+            {
+              "name": "water"
+            }
+          ]
         }
       ],
       "variables": [],
@@ -951,8 +962,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 960,
-          "y": 192,
+          "x": 704,
+          "y": -320,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -1014,7 +1025,7 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "29893cff-01af-4bd4-87a1-09b1e5e52b9f",
-          "width": 896,
+          "width": 1664,
           "x": -512,
           "y": 960,
           "zOrder": 10,
@@ -1089,31 +1100,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 44,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "479d8a07-b0b3-496d-81c6-bd7a740e6e3c",
           "width": 320,
           "x": 1664,
-          "y": 640,
+          "y": 660,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "5e63ebf8-a67f-4116-baa2-a0f0b8665291",
-          "width": 448,
-          "x": 320,
-          "y": 1024,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1546,22 +1541,6 @@
           "x": 1408,
           "y": -384,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "d1df53d7-c1d0-4eb3-91dd-cf3034f6759d",
-          "width": 448,
-          "x": 704,
-          "y": 960,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2683,14 +2662,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 46,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "aea25be4-f4af-4f06-803f-df49fab073ed",
           "width": 320,
           "x": 384,
-          "y": 960,
+          "y": 914,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2875,14 +2854,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 56,
           "layer": "",
           "locked": false,
           "name": "water",
           "persistentUuid": "d20c565e-b1ed-4914-a100-05c15450f0ba",
           "width": 384,
           "x": 1152,
-          "y": 960,
+          "y": 968,
           "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
@@ -3841,7 +3820,7 @@
           "name": "GoLeft",
           "persistentUuid": "3f82a8e0-bc9f-4105-9e79-ee71b223cec6",
           "width": 0,
-          "x": 889,
+          "x": 888,
           "y": -192,
           "zOrder": 226,
           "numberProperties": [],
@@ -4048,6 +4027,16 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "DamageCooldown": 0,
+              "MaxHealth": 100,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            },
+            {
+              "maxFallingSpeed": 700,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "ignoreDefaultControls": false,
@@ -4057,7 +4046,6 @@
               "deceleration": 1500,
               "gravity": 1000,
               "jumpSpeed": 1000,
-              "maxFallingSpeed": 700,
               "maxSpeed": 400,
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
@@ -4338,15 +4326,7 @@
           "width": 64,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
+          "behaviors": []
         },
         {
           "height": 64,
@@ -6272,6 +6252,10 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
           "name": "HorizontalTiledSpriteParallax",
           "type": "Parallax::HorizontalTiledSpriteParallax"
         },
@@ -7393,6 +7377,59 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "hero",
+                    "\"Level 1\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "pause_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "SourisSurObjet"
                   },
@@ -7402,6 +7439,14 @@
                     "",
                     ""
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -7421,7 +7466,7 @@
               "events": []
             },
             {
-              "disabled": false,
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8759,6 +8804,17 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -8767,17 +8823,6 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "hero",
-                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 },
@@ -9081,6 +9126,152 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "hero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "ElementalForce",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Life",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\hurt.wav",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "ElementalForce",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Life",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\hurt.wav",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ]
     }
