@@ -885,60 +885,6 @@
         "name": "img\\ground64-1.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/door.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\door.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/bg_cloud.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\bg_cloud.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/menu/play_button-normal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\menu\\play_button-normal.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/menu/play_button-pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\menu\\play_button-pressed.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/menu/quit_button-normal.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\menu\\quit_button-normal.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "img/menu/quit_button-pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "img\\menu\\quit_button-pressed.png",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -947,940 +893,6 @@
   "objectsGroups": [],
   "variables": [],
   "layouts": [
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "MainMenu",
-      "name": "MainMenu",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 64,
-        "gridHeight": 64,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 9442302,
-        "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 0.31999999999999945,
-        "windowMask": false
-      },
-      "objectsGroups": [
-        {
-          "name": "Menu",
-          "objects": [
-            {
-              "name": "play_button"
-            },
-            {
-              "name": "quit_button"
-            }
-          ]
-        }
-      ],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1536,
-          "layer": "Background",
-          "locked": true,
-          "name": "bg",
-          "persistentUuid": "61d9614d-0259-435a-a374-faa2f35eeecf",
-          "width": 2304,
-          "x": -192,
-          "y": -192,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 1408,
-          "layer": "Background",
-          "locked": true,
-          "name": "grid",
-          "persistentUuid": "05ab8496-9c68-482a-999d-d4bf97cbe79a",
-          "width": 2176,
-          "x": -128,
-          "y": -128,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "play_button",
-          "persistentUuid": "684b0ca8-2573-4834-9d76-3e566b213439",
-          "width": 0,
-          "x": 768,
-          "y": 224,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "hero",
-          "persistentUuid": "087363dd-f531-4587-bff5-0b6c21e526fc",
-          "width": 0,
-          "x": 608,
-          "y": 256,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "platform_moving",
-          "persistentUuid": "0ca48dd4-dca5-4680-ba17-220c054bc149",
-          "width": 2624,
-          "x": -192,
-          "y": 768,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "quit_button",
-          "persistentUuid": "397215f4-eb5b-4a20-82d5-67823f847362",
-          "width": 0,
-          "x": 768,
-          "y": 416,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "height": 64,
-          "name": "bg",
-          "tags": "",
-          "texture": "img\\bg.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "HorizontalTiledSpriteParallax",
-              "type": "Parallax::HorizontalTiledSpriteParallax",
-              "ParallaxFactor": 0.5,
-              "FollowedLayer": ""
-            }
-          ]
-        },
-        {
-          "height": 64,
-          "name": "grid",
-          "tags": "",
-          "texture": "img\\grid.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "HorizontalTiledSpriteParallax",
-              "type": "Parallax::HorizontalTiledSpriteParallax",
-              "ParallaxFactor": 0.5,
-              "FollowedLayer": ""
-            }
-          ]
-        },
-        {
-          "name": "play_button",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "playButtonNormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "img\\menu\\play_button-normal.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "playButtonPressed",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "img\\menu\\play_button-pressed.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "quit_button",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "quitButtonNormal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "img\\menu\\quit_button-normal.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "quitButtonPressed",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "img\\menu\\quit_button-pressed.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "hero",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 100,
-              "DamageCooldown": 0,
-              "MaxHealth": 100,
-              "IsJustDamaged": false,
-              "CooldownActive": false
-            },
-            {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "maxFallingSpeed": 700,
-              "ignoreDefaultControls": false,
-              "ladderClimbingSpeed": 400,
-              "acceleration": 1500,
-              "canGrabPlatforms": false,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "jumpSpeed": 1000,
-              "maxSpeed": 400,
-              "roundCoordinates": true,
-              "slopeMaxAngle": 60,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.1429,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "img\\hero_idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 93
-                          },
-                          {
-                            "x": 15,
-                            "y": 93
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "img\\hero_idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 93
-                          },
-                          {
-                            "x": 15,
-                            "y": 93
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "img\\hero_idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 93
-                          },
-                          {
-                            "x": 15,
-                            "y": 93
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "img\\hero_idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 93
-                          },
-                          {
-                            "x": 15,
-                            "y": 93
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "jump",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "img\\hero_jump.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 15,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 15
-                          },
-                          {
-                            "x": 80,
-                            "y": 93
-                          },
-                          {
-                            "x": 15,
-                            "y": 93
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "platform_moving",
-          "tags": "",
-          "texture": "img\\platform_moving.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Jumpthru",
-              "yGrabOffset": 0
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "PlayerMovement"
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "music\\Bubble-Gum-Puzzler.mp3",
-                "yes",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Menu",
-                "=",
-                "SceneWindowWidth()/2",
-                "=",
-                "SceneWindowHeight()/2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "play_button",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "play_button",
-                "\"playButtonPressed\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 1\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "play_button",
-                "",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "play_button",
-                "\"playButtonNormal\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "quit_button",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "quit_button",
-                "\"quitButtonPressed\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MouseButtonPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Quit"
-                  },
-                  "parameters": [
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "quit_button",
-                "",
-                "yes",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "quit_button",
-                "\"quitButtonNormal\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 33554432,
-          "ambientLightColorG": 6025840,
-          "ambientLightColorR": 8587336,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "Background",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 8054936,
-          "ambientLightColorG": 150995054,
-          "ambientLightColorR": 1869182049,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": -2147483632,
-          "ambientLightColorG": 6025840,
-          "ambientLightColorR": 8011360,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "UI",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Health",
-          "type": "Health::Health"
-        },
-        {
-          "name": "HorizontalTiledSpriteParallax",
-          "type": "Parallax::HorizontalTiledSpriteParallax"
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
-        }
-      ]
-    },
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
@@ -1904,7 +916,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.27000000000000335,
+        "zoomFactor": 0.35000000000000364,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1959,8 +971,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 2496,
-          "y": -320,
+          "x": 0,
+          "y": 768,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -2097,14 +1109,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1600,
+          "height": 1536,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "fbc8db1b-e41d-4967-b628-1cd47b65af3c",
           "width": 64,
           "x": 2560,
-          "y": -576,
+          "y": -512,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2215,7 +1227,7 @@
           "name": "cloud",
           "persistentUuid": "78f5b143-01de-440b-9e24-41e7ef972ded",
           "width": 448,
-          "x": 1280,
+          "x": 2048,
           "y": -704,
           "zOrder": 201,
           "numberProperties": [],
@@ -2231,8 +1243,8 @@
           "name": "cloud",
           "persistentUuid": "b9eb4ce3-4ddf-4b8f-a635-9d175d5ccf25",
           "width": 448,
-          "x": 768,
-          "y": -1408,
+          "x": 1280,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -2247,8 +1259,8 @@
           "name": "cloud",
           "persistentUuid": "49286742-9058-4457-a62f-da256d8bba11",
           "width": 448,
-          "x": 0,
-          "y": -1216,
+          "x": -448,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -2278,7 +1290,7 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "0c7095eb-a6a2-4d3b-baa4-3a54836bc8a5",
-          "width": 2880,
+          "width": 2944,
           "x": -448,
           "y": -512,
           "zOrder": 10,
@@ -2720,6 +1732,22 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "097c6574-da28-443e-8fdd-4f9f18e41469",
+          "width": 64,
+          "x": 2496,
+          "y": -512,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -2881,8 +1909,8 @@
           "name": "cloud",
           "persistentUuid": "d2e02382-9c2b-4aa5-a27b-55f8a87269d9",
           "width": 448,
-          "x": 320,
-          "y": -768,
+          "x": 448,
+          "y": -704,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -3744,7 +2772,7 @@
           "locked": false,
           "name": "water",
           "persistentUuid": "d20c565e-b1ed-4914-a100-05c15450f0ba",
-          "width": 512,
+          "width": 384,
           "x": 2048,
           "y": 972,
           "zOrder": 200,
@@ -4967,86 +3995,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "door",
-          "persistentUuid": "e5ce2175-2fb9-4ffe-badc-41bbe0a0b13a",
-          "width": 128,
-          "x": 2432,
-          "y": -576,
-          "zOrder": 230,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "857c6e76-babd-4b7c-9282-9a16c8c9f9e9",
-          "width": 192,
-          "x": 2432,
-          "y": -640,
-          "zOrder": 231,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "0ef31045-d854-46ab-becc-98c94bfbdc2e",
-          "width": 64,
-          "x": 2368,
-          "y": -640,
-          "zOrder": 232,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "cloud",
-          "persistentUuid": "99706171-3832-478c-a539-85f15da0062f",
-          "width": 448,
-          "x": 1344,
-          "y": -1216,
-          "zOrder": 201,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "bg_cloud",
-          "persistentUuid": "2b99251c-2528-49a1-936f-265eb3f21e76",
-          "width": 512,
-          "x": 960,
-          "y": -128,
-          "zOrder": 301,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -5333,8 +4281,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -7140,36 +6088,6 @@
               ]
             }
           ]
-        },
-        {
-          "height": 64,
-          "name": "door",
-          "tags": "",
-          "texture": "img\\door.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 64,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Jumpthru",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "bg_cloud",
-          "tags": "",
-          "texture": "img\\bg_cloud.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -7291,7 +6209,7 @@
               },
               "parameters": [
                 "hero",
-                "door",
+                "platform",
                 "",
                 "",
                 ""
@@ -7351,28 +6269,6 @@
           "effects": []
         },
         {
-          "ambientLightColorB": -2147483632,
-          "ambientLightColorG": 6025840,
-          "ambientLightColorR": 9253160,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "BGclouds2",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 83886080,
-          "ambientLightColorG": 6025840,
-          "ambientLightColorR": 9253160,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "BGclouds1",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
           "ambientLightColorB": 67108864,
           "ambientLightColorG": 6025824,
           "ambientLightColorR": 7192280,
@@ -7419,6 +6315,184 @@
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "MainMenu",
+      "name": "MainMenu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 64,
+        "gridHeight": 64,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 9442302,
+        "gridAlpha": 0.2,
+        "snap": true,
+        "zoomFactor": 0.31999999999999956,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "Background",
+          "locked": true,
+          "name": "bg",
+          "persistentUuid": "61d9614d-0259-435a-a374-faa2f35eeecf",
+          "width": 2304,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1408,
+          "layer": "Background",
+          "locked": true,
+          "name": "grid",
+          "persistentUuid": "05ab8496-9c68-482a-999d-d4bf97cbe79a",
+          "width": 2176,
+          "x": -128,
+          "y": -128,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 64,
+          "name": "bg",
+          "tags": "",
+          "texture": "img\\bg.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "grid",
+          "tags": "",
+          "texture": "img\\grid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "music\\Bubble-Gum-Puzzler.mp3",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 33554432,
+          "ambientLightColorG": 6025840,
+          "ambientLightColorR": 8587336,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8054936,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
         }
       ]
     }
@@ -8358,9 +7432,39 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "hero",
+                    "\"Level 1\""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -8373,40 +7477,7 @@
                   "subInstructions": []
                 }
               ],
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "MouseButtonPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "Left"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PushScene"
-                      },
-                      "parameters": [
-                        "hero",
-                        "\"MainMenu\""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ]
+              "events": []
             },
             {
               "disabled": false,
@@ -8482,6 +7553,14 @@
                   "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             }
           ]
@@ -8851,12 +7930,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetCameraX"
+                    "value": "SetCameraY"
                   },
                   "parameters": [
                     "",
                     "=",
-                    "lerp(CameraX(), hero.X(), 0.12)",
+                    "lerp(CameraY(), hero.Y(), 0.07)",
                     "",
                     ""
                   ],
@@ -8865,12 +7944,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SetCameraY"
+                    "value": "SetCameraX"
                   },
                   "parameters": [
                     "",
                     "=",
-                    "lerp(CameraY(), hero.Y(), 0.12)",
+                    "lerp(CameraX(), hero.X(), 0.07)",
                     "",
                     ""
                   ],
@@ -8917,54 +7996,11 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "disabled": true,
+              "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetCameraX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "hero.X()",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetCameraY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "hero.Y()",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetCameraX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "hero.X()*0.95",
-                    "\"BG_clouds_1\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": []
             }
           ],
