@@ -1029,13 +1029,28 @@
         "name": "img\\gate_lever_on.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "sounds/open_dor.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Explosion 1\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.08,\\\"sustainPunch\\\":10,\\\"decay\\\":0.39,\\\"tremoloDepth\\\":38,\\\"tremoloFrequency\\\":74,\\\"frequency\\\":10000,\\\"frequencySweep\\\":-1400,\\\"frequencyDeltaSweep\\\":-3200,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"brownnoise\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"open_dor\"}}",
+        "name": "sounds\\open_dor.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "LevelNumber",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1783,6 +1798,38 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "TouchSimulateMouse"
               },
               "parameters": [
@@ -1820,7 +1867,7 @@
                 "",
                 "music\\Bubble-Gum-Puzzler.mp3",
                 "0",
-                "",
+                "yes",
                 "",
                 ""
               ],
@@ -2120,14 +2167,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -2222,7 +2261,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.4900000000000033,
+        "zoomFactor": 0.35000000000000264,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2246,6 +2285,9 @@
             },
             {
               "name": "pause_button"
+            },
+            {
+              "name": "restart_button"
             }
           ]
         },
@@ -2280,8 +2322,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 2048,
-          "y": -320,
+          "x": 128,
+          "y": -448,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -2418,14 +2460,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1600,
+          "height": 1280,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "fbc8db1b-e41d-4967-b628-1cd47b65af3c",
           "width": 64,
           "x": 2560,
-          "y": -576,
+          "y": -512,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2599,7 +2641,7 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "0c7095eb-a6a2-4d3b-baa4-3a54836bc8a5",
-          "width": 2880,
+          "width": 3008,
           "x": -448,
           "y": -512,
           "zOrder": 10,
@@ -2615,8 +2657,8 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "28bddd0c-93f4-4d55-aaf7-0586c0c119b2",
-          "width": 448,
-          "x": 1600,
+          "width": 192,
+          "x": 2560,
           "y": 960,
           "zOrder": 101,
           "numberProperties": [],
@@ -2808,7 +2850,7 @@
           "name": "grid",
           "persistentUuid": "ff62c330-2ac7-4c65-bc6b-c372923a1ab9",
           "width": 5056,
-          "x": -1536,
+          "x": -1535,
           "y": -1472,
           "zOrder": -12,
           "numberProperties": [],
@@ -5298,8 +5340,8 @@
           "name": "door",
           "persistentUuid": "e5ce2175-2fb9-4ffe-badc-41bbe0a0b13a",
           "width": 128,
-          "x": 2432,
-          "y": -576,
+          "x": 2624,
+          "y": 832,
           "zOrder": 230,
           "numberProperties": [],
           "stringProperties": [],
@@ -5314,8 +5356,8 @@
           "name": "ground_green",
           "persistentUuid": "857c6e76-babd-4b7c-9282-9a16c8c9f9e9",
           "width": 192,
-          "x": 2432,
-          "y": -640,
+          "x": 2560,
+          "y": 768,
           "zOrder": 231,
           "numberProperties": [],
           "stringProperties": [],
@@ -5324,14 +5366,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "0ef31045-d854-46ab-becc-98c94bfbdc2e",
           "width": 64,
-          "x": 2368,
-          "y": -640,
+          "x": 2752,
+          "y": 768,
           "zOrder": 232,
           "numberProperties": [],
           "stringProperties": [],
@@ -5363,7 +5405,7 @@
           "persistentUuid": "2b99251c-2528-49a1-936f-265eb3f21e76",
           "width": 512,
           "x": 960,
-          "y": -128,
+          "y": -192,
           "zOrder": 301,
           "numberProperties": [],
           "stringProperties": [],
@@ -5388,15 +5430,47 @@
         {
           "angle": 0,
           "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "3680130e-58cc-4cd4-8126-edf7f61e173a",
+          "width": 448,
+          "x": 1600,
+          "y": 960,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "gate_lever",
+          "persistentUuid": "b0d42783-a6c6-43ee-b627-2d2e7fa1b981",
+          "width": 0,
+          "x": 1984,
+          "y": 832,
+          "zOrder": 304,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 128,
           "layer": "",
           "locked": false,
           "name": "gate",
-          "persistentUuid": "70d9e22e-16f2-4961-9fe5-814ac03c53d9",
+          "persistentUuid": "1eab3dfa-1b33-4b21-8e7d-750f239f5068",
           "width": 64,
-          "x": 1920,
-          "y": 1152,
-          "zOrder": 303,
+          "x": 2560,
+          "y": 832,
+          "zOrder": 305,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5450,13 +5524,14 @@
               "CooldownActive": false
             },
             {
+              "canGrabPlatforms": false,
+              "jumpSustainTime": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxFallingSpeed": 700,
               "ignoreDefaultControls": false,
               "ladderClimbingSpeed": 400,
               "acceleration": 1500,
-              "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
               "jumpSpeed": 1000,
@@ -5465,6 +5540,10 @@
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -5723,11 +5802,11 @@
           "effects": [],
           "behaviors": [
             {
+              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Ladder",
-              "yGrabOffset": 0
+              "yGrabOffset": 0,
+              "platformType": "Ladder"
             }
           ]
         },
@@ -7793,6 +7872,40 @@
       ],
       "events": [
         {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "gate",
+                "gate.X()",
+                "gate.Y()",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
@@ -7829,9 +7942,21 @@
                 "",
                 "music\\Mind-Bender.mp3",
                 "1",
-                "",
+                "yes",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -7944,6 +8069,82 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "gate_lever",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "gate_lever",
+                "\"gateLeverOn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\open_dor.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "gate",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -8076,7 +8277,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.2499999999999988,
+        "zoomFactor": 0.369999999999999,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8100,6 +8301,9 @@
             },
             {
               "name": "pause_button"
+            },
+            {
+              "name": "restart_button"
             }
           ]
         },
@@ -8134,8 +8338,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 1728,
-          "y": 512,
+          "x": 256,
+          "y": 768,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -11239,6 +11443,10 @@
               "slopeMaxAngle": 60,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -13603,9 +13811,21 @@
                 "",
                 "music\\Mind-Bender.mp3",
                 "1",
-                "",
+                "yes",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "2"
               ],
               "subInstructions": []
             }
@@ -13613,7 +13833,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -13801,7 +14021,7 @@
               },
               "parameters": [
                 "",
-                "sounds\\hurt.wav",
+                "sounds\\open_dor.wav",
                 "",
                 "",
                 ""
@@ -13897,7 +14117,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "UI",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -14288,7 +14508,7 @@
       "name": "VirtualControlsManagement",
       "events": [
         {
-          "disabled": true,
+          "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -15051,7 +15271,212 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 1\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 4\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 5\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "LevelNumber",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 6\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -16916,7 +17341,7 @@
           "events": []
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -16937,9 +17362,138 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "Timer"
               },
-              "parameters": [],
+              "parameters": [
+                "",
+                "1",
+                "\"DamageTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Life",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "ElementalForce",
+                "PlatformerObject",
+                "=",
+                "1500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "hero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "hero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\hurt.wav",
+                "",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectColorTween"
+              },
+              "parameters": [
+                "hero",
+                "Tween",
+                "\"DamageColor\"",
+                "\"252;10;10\"",
+                "\"linear\"",
+                "500",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DamageTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"DamageTimer\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "ElementalForce",
+                "",
+                "",
+                ""
+              ],
               "subInstructions": []
             }
           ],
@@ -16966,6 +17520,75 @@
                 "sounds\\hurt.wav",
                 "",
                 "50",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectColorTween"
+              },
+              "parameters": [
+                "hero",
+                "Tween",
+                "\"DamageColor\"",
+                "\"252;10;10\"",
+                "\"linear\"",
+                "500",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"DamageTimer\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "ElementalForce",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectColorTween"
+              },
+              "parameters": [
+                "hero",
+                "Tween",
+                "\"DamageColor\"",
+                "\"255;255;255\"",
+                "\"linear\"",
+                "1000",
+                "",
                 ""
               ],
               "subInstructions": []
