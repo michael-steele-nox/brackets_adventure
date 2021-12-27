@@ -31,9 +31,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.91444645"
-     inkscape:cx="2469.8002"
-     inkscape:cy="-249.33117"
+     inkscape:zoom="2.3651655"
+     inkscape:cx="902.89664"
+     inkscape:cy="1184.6951"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -47,9 +47,9 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:snap-grids="false"
+     inkscape:snap-grids="true"
      inkscape:snap-intersection-paths="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:object-paths="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -118,10 +118,10 @@
     <rect
        style="opacity:1;fill:#000000;stroke-width:2.64582;paint-order:stroke markers fill"
        id="rect278"
-       width="838.56934"
-       height="997.18951"
-       x="332.44479"
-       y="120.76295" />
+       width="1112.0309"
+       height="1168.4628"
+       x="307.38666"
+       y="124.34267" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -1641,6 +1641,20 @@
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       aria-label="$"
+       transform="matrix(1.9957528,0,0,1.556245,-72.35137,-178.48124)"
+       style="font-style:normal;font-weight:normal;font-size:22.1906px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.150131px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="g1611">
+      <path
+         d="m 28.661859,383.21826 v -1.38691 l -0.853064,0 h -1.38691 v -1.38691 h -1.38691 v -1.38691 -1.38691 -1.38691 h 0.591752 l -0.01127,-0.79478 h 0.986718 1.38691 l 1.223905,-0.0406 -0.01729,0.83541 v -1.08345 l -1.38691,-0.0578 h -2.18695 v -1.63257 h -0.586865 v -1.38691 -1.38691 -1.38691 h 1.38691 v -1.38691 h 1.38691 l 0.846035,0 v -1.38691 l 2.277099,0 v 1.38691 h 1.037595 1.38691 v 1.38691 h 1.38691 v 1.38691 1.38691 1.97938 h -1.38691 -1.38691 l -1.377653,0.006 -0.0093,-0.51189 v -1.47361 -1.38691 -1.38691 h -1.386909 v 1.38691 1.38691 1.35801 l 0.908996,0.0276 0.346981,0.0205 0.130932,0.0675 v 0.89559 h 1.38691 1.38691 v 1.79153 h 1.38691 v 1.38691 1.38691 1.38691 h -1.38691 v 1.38691 h -1.38691 -0.964614 v 1.38691 z m 1.920755,-2.77382 v -1.38691 -1.38691 -1.38691 h -1.386909 v 1.38691 1.38691 1.38691 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.1906px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.150131px"
+         id="path1609"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    </g>
     <g
        id="g256"
        style="font-style:normal;font-weight:normal;font-size:22.1906px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.176389px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4693,10 +4707,6 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <path
-       d="m 534.56187,1031.2928 v 16.0648 h 16.01092 v 16.0647 16.0647 h -16.01092 v 16.0647 h -16.01094 -16.01094 v -16.0647 h -16.01091 v -16.0647 -16.0647 h 16.01091 v -16.0648 h 16.01094 z"
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.64583329;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path1549" />
-    <path
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.4;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
        d="m 630.33247,1027.2421 v 16.0648 h 16.01092 v 16.0647 16.0647 h -16.01092 v 16.0647 h -16.01094 -16.01094 v -16.0647 h -16.01091 v -16.0647 -16.0647 h 16.01091 v -16.0648 h 16.01094 z"
        id="path1563" />
@@ -4844,6 +4854,693 @@
            x="622.52655"
            y="94.865036"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.264583px">back</tspan></text>
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_left.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1574"
+       width="67.73333"
+       height="67.73333"
+       x="809.68048"
+       y="1092.8793" />
+    <g
+       id="g1580"
+       transform="translate(10.671062,72.769428)"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_left.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         id="path1562" />
+      <path
+         id="path1560"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         id="path1556" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path1558"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 839.83639,1046.2028 v 3.7473 h -3.74673 v 3.7474 h -3.7468 v 3.7472 h 3.7468 v 3.7475 h 3.74673 v 3.7472 3.7475 h -3.74673 v -3.7475 h -3.7468 v -3.7472 h -3.74677 v -3.7475 h -3.74681 v -3.7472 h 3.74681 v -3.7474 h 3.74677 v -3.7473 h 3.7468 v -3.7474 h 3.74673 z"
+         inkscape:transform-center-x="5.8755078"
+         inkscape:transform-center-y="0.2054894" />
+    </g>
+    <rect
+       y="1093.897"
+       x="897.96753"
+       height="67.73333"
+       width="67.73333"
+       id="rect1582"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_left-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1649"
+       transform="translate(0,71.963546)">
+      <path
+         id="path1584"
+         d="m 946.36803,1021.9335 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 H 930.23451 914.101 v -16.1359 h -16.13349 v -16.136 -16.136 H 914.101 v -16.1361 h 16.13351 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 947.96769,1023.5281 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         id="path1586" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path1598"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 937.73617,1046.968 v 3.7473 h -3.74673 v 3.7474 h -3.7468 v 3.7472 h 3.7468 v 3.7475 h 3.74673 v 3.7472 3.7475 h -3.74673 v -3.7475 h -3.7468 v -3.7472 h -3.74677 v -3.7475 h -3.74681 v -3.7472 h 3.74681 v -3.7474 h 3.74677 v -3.7473 h 3.7468 v -3.7474 h 3.74673 z"
+         inkscape:transform-center-x="5.8755078"
+         inkscape:transform-center-y="0.2054894" />
+    </g>
+    <rect
+       y="1098.4863"
+       x="987.67987"
+       height="67.73333"
+       width="67.73333"
+       id="rect1619"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       style="opacity:1"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       transform="translate(188.67053,78.376404)"
+       id="g1629">
+      <path
+         id="path1621"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         id="path1623" />
+      <path
+         id="path1625"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         inkscape:transform-center-y="0.2054894"
+         inkscape:transform-center-x="-5.8755078"
+         d="m 830.14098,1046.2028 v 3.7473 h 3.74673 v 3.7474 h 3.7468 v 3.7472 h -3.7468 v 3.7475 h -3.74673 v 3.7472 3.7475 h 3.74673 v -3.7475 h 3.7468 v -3.7472 h 3.74677 v -3.7475 h 3.74681 v -3.7472 h -3.74681 v -3.7474 h -3.74677 v -3.7473 h -3.7468 v -3.7474 h -3.74673 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1627"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right-pressed.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1631"
+       width="67.73333"
+       height="67.73333"
+       x="1075.967"
+       y="1099.504" />
+    <g
+       id="g1655"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="opacity:1"
+       transform="translate(-48.935211,-43.537944)">
+      <g
+         id="g1641"
+         transform="translate(191.29956,0.80588134)"
+         inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_left-pressed.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         style="opacity:1">
+        <path
+           id="path1633"
+           d="m 982.00315,1142.2361 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 983.60281,1143.8307 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 H 967.4693 951.33578 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+           id="path1635" />
+        <path
+           inkscape:transform-center-y="0.2054894"
+           inkscape:transform-center-x="-5.8755078"
+           d="m 963.67588,1167.2706 v 3.7473 h 3.74673 v 3.7474 h 3.7468 v 3.7472 h -3.7468 v 3.7475 h -3.74673 v 3.7472 3.7475 h 3.74673 v -3.7475 h 3.7468 v -3.7472 h 3.74677 v -3.7475 h 3.74681 v -3.7472 h -3.74681 v -3.7474 h -3.74677 v -3.7473 h -3.7468 v -3.7474 h -3.74673 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path1639"
+           inkscape:connector-curvature="0"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1657"
+       width="67.73333"
+       height="67.73333"
+       x="901.32361"
+       y="991.98029" />
+    <g
+       id="g1667"
+       transform="translate(102.31427,-28.129644)"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         id="path1659" />
+      <path
+         id="path1661"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         id="path1663" />
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path1665"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 825.24202,1056.9837 h 3.7473 v -3.7467 h 3.7474 v -3.7468 h 3.7472 v 3.7468 h 3.7475 v 3.7467 h 3.7472 3.7475 v -3.7467 h -3.7475 v -3.7468 h -3.7472 v -3.7468 h -3.7475 v -3.7468 h -3.7472 v 3.7468 h -3.7474 v 3.7468 h -3.7473 v 3.7468 h -3.7474 v 3.7467 z"
+         inkscape:transform-center-x="-0.20549271"
+         inkscape:transform-center-y="-5.8755107" />
+    </g>
+    <rect
+       y="991.98029"
+       x="991.27802"
+       height="67.73333"
+       width="67.73333"
+       id="rect1703"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       style="opacity:1"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       transform="translate(192.2687,-28.129644)"
+       id="g1713">
+      <g
+         id="g1718">
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+           id="path1705" />
+        <path
+           id="path1707"
+           d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+        <path
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:connector-curvature="0"
+           id="path1711"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 824.18368,1055.9253 h 3.7473 v -3.7467 h 3.7474 v -3.7468 h 3.7472 v 3.7468 h 3.7475 v 3.7467 h 3.7472 3.7475 v -3.7467 h -3.7475 v -3.7468 h -3.7472 v -3.7468 h -3.7475 v -3.7468 h -3.7472 v 3.7468 h -3.7474 v 3.7468 h -3.7473 v 3.7468 h -3.7474 v 3.7467 z"
+           inkscape:transform-center-x="-0.20549271"
+           inkscape:transform-center-y="-5.8755107" />
+      </g>
+    </g>
+    <rect
+       y="1187.3822"
+       x="901.32361"
+       height="67.73333"
+       width="67.73333"
+       id="rect1742"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       style="opacity:1"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       transform="translate(102.31427,167.27226)"
+       id="g1752">
+      <path
+         id="path1744"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         id="path1746" />
+      <path
+         id="path1748"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         inkscape:transform-center-y="5.8754895"
+         inkscape:transform-center-x="0.20550731"
+         d="m 843.56772,1053.7476 h -3.7473 v 3.7467 h -3.7474 v 3.7468 h -3.7472 v -3.7468 h -3.7475 v -3.7467 h -3.7472 -3.7475 v 3.7467 h 3.7475 v 3.7468 h 3.7472 v 3.7468 h 3.7475 v 3.7468 h 3.7472 v -3.7468 h 3.7474 v -3.7468 h 3.7473 v -3.7468 h 3.7474 v -3.7467 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1750"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1754"
+       width="67.73333"
+       height="67.73333"
+       x="993.43695"
+       y="1187.3822" />
+    <g
+       id="g1770">
+      <g
+         style="opacity:1"
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+         transform="translate(194.42761,167.27226)"
+         id="g1764">
+        <path
+           id="path1756"
+           d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+           id="path1758" />
+        <path
+           inkscape:transform-center-y="5.8754895"
+           inkscape:transform-center-x="0.20550731"
+           d="m 842.50938,1052.6892 h -3.7473 v 3.7467 h -3.7474 v 3.7468 h -3.7472 v -3.7468 h -3.7475 v -3.7467 h -3.7472 -3.7475 v 3.7467 h 3.7475 v 3.7468 h 3.7472 v 3.7468 h 3.7475 v 3.7468 h 3.7472 v -3.7468 h 3.7474 v -3.7468 h 3.7473 v -3.7468 h 3.7474 v -3.7467 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264582px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="path1762"
+           inkscape:connector-curvature="0"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1820"
+       width="67.73333"
+       height="67.73333"
+       x="1175.0898"
+       y="875.96045" />
+    <g
+       id="g1830"
+       transform="translate(376.08047,-144.14952)"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         id="path1822" />
+      <path
+         id="path1824"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         id="path1826" />
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect1959"
+       width="67.73333"
+       height="67.73333"
+       x="1275.8439"
+       y="1104.947" />
+    <g
+       id="g1883"
+       transform="translate(77.346586)">
+      <g
+         id="g1893">
+        <g
+           style="fill:#ffffff"
+           transform="translate(-0.52916666,-4.7625002)"
+           id="g1881" />
+      </g>
+      <g
+         id="g1977"
+         transform="translate(23.407519,228.9866)">
+        <g
+           id="g1965"
+           transform="translate(376.08047,-144.14952)"
+           inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96"
+           style="opacity:1">
+          <path
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+             d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+             id="path1961" />
+          <path
+             id="path1963"
+             d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+        </g>
+        <g
+           id="g1975"
+           transform="translate(-0.52916666,-4.7625002)"
+           style="fill:#ffffff">
+          <path
+             inkscape:export-ydpi="96"
+             inkscape:export-xdpi="96"
+             inkscape:connector-curvature="0"
+             id="path1967"
+             style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 1200.241,910.12305 h 3.9324 v -3.93248 h 3.9326 v -3.93256 h 3.9325 v 3.93256 h 3.9325 v 3.93248 h 3.9325 3.9326 v -3.93248 h -3.9326 v -3.93256 h -3.9325 v -3.9325 h -3.9325 v -3.93256 h -3.9325 v 3.93256 h -3.9326 v 3.9325 h -3.9324 v 3.93256 h -3.9326 v 3.93248 z" />
+          <rect
+             y="921.25928"
+             x="1195.2648"
+             height="4.547524"
+             width="11.731809"
+             id="rect1969"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+          <rect
+             transform="rotate(90)"
+             y="-1212.3693"
+             x="906.59485"
+             height="4.547524"
+             width="14.312989"
+             id="rect1971"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+          <rect
+             y="921.25928"
+             x="1213.2979"
+             height="4.547524"
+             width="11.731809"
+             id="rect1973"
+             style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+        </g>
+      </g>
+    </g>
+    <rect
+       y="1104.947"
+       x="1198.4973"
+       height="67.73333"
+       width="67.73333"
+       id="rect1937"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       id="g1957"
+       transform="translate(23.407519,228.9866)">
+      <g
+         id="g1945"
+         transform="translate(376.08047,-144.14952)"
+         inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96"
+         style="opacity:1">
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+           id="path1939" />
+        <path
+           id="path1941"
+           d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+        <path
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+           d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+           id="path1943" />
+      </g>
+      <g
+         id="g1955"
+         transform="translate(0.52916666,-3.7041668)">
+        <path
+           inkscape:export-ydpi="96"
+           inkscape:export-xdpi="96"
+           inkscape:connector-curvature="0"
+           id="path1947"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 1200.241,910.12305 h 3.9324 v -3.93248 h 3.9326 v -3.93256 h 3.9325 v 3.93256 h 3.9325 v 3.93248 h 3.9325 3.9326 v -3.93248 h -3.9326 v -3.93256 h -3.9325 v -3.9325 h -3.9325 v -3.93256 h -3.9325 v 3.93256 h -3.9326 v 3.9325 h -3.9324 v 3.93256 h -3.9326 v 3.93248 z" />
+        <rect
+           y="921.25928"
+           x="1195.2648"
+           height="4.547524"
+           width="11.731809"
+           id="rect1949"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+        <rect
+           transform="rotate(90)"
+           y="-1212.3693"
+           x="906.59485"
+           height="4.547524"
+           width="14.312989"
+           id="rect1951"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+        <rect
+           y="921.25928"
+           x="1213.2979"
+           height="4.547524"
+           width="11.731809"
+           id="rect1953"
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+      </g>
+    </g>
+    <rect
+       transform="rotate(90)"
+       y="-1207.395"
+       x="900.10559"
+       height="7.7858834"
+       width="21.869162"
+       id="rect1988"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect1990"
+       width="21.869162"
+       height="7.7858834"
+       x="900.10559"
+       y="-1221.0681"
+       transform="rotate(90)" />
+    <rect
+       y="875.96045"
+       x="1260.0068"
+       height="67.73333"
+       width="67.73333"
+       id="rect1992"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       transform="translate(460.99745,-144.14952)"
+       id="g2000">
+      <path
+         id="path1994"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         id="path1996" />
+    </g>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="rect2002"
+       width="21.869162"
+       height="7.7858834"
+       x="899.04724"
+       y="-1291.2537"
+       transform="rotate(90)" />
+    <rect
+       transform="rotate(90)"
+       y="-1304.9268"
+       x="899.04724"
+       height="7.7858834"
+       width="21.869162"
+       id="rect2004"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round" />
+    <rect
+       y="784.36578"
+       x="1175.0898"
+       height="67.73333"
+       width="67.73333"
+       id="rect2032"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       transform="translate(376.08047,-235.74416)"
+       id="g2040">
+      <path
+         id="path2034"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         id="path2036" />
+      <path
+         id="path2038"
+         d="m 850.60923,1023.2992 v 16.1362 h 16.13349 v 16.1359 16.1359 h -16.13349 v 16.136 h -16.13352 -16.13352 v -16.136 h -16.13348 v -16.1359 -16.1359 h 16.13348 v -16.1362 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+    </g>
+    <g
+       id="g2080"
+       transform="rotate(-90,1212.0408,818.19342)">
+      <path
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         inkscape:connector-curvature="0"
+         id="path2058"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1201.6802,818.54944 h 3.9325 v -3.93248 h 3.9326 v -3.93256 h 3.9324 v 3.93256 h 3.9326 v 3.93248 h 3.9325 3.9326 v -3.93248 h -3.9326 v -3.93256 h -3.9325 v -3.9325 h -3.9326 v -3.93256 h -3.9324 v 3.93256 h -3.9326 v 3.9325 h -3.9325 v 3.93256 h -3.9325 v 3.93248 z" />
+      <rect
+         transform="rotate(90)"
+         y="-1213.8085"
+         x="815.02124"
+         height="4.547524"
+         width="14.312989"
+         id="rect2062"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       style="opacity:1;fill:#333333;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect2082"
+       width="67.73333"
+       height="67.73333"
+       x="1265.6667"
+       y="784.36578" />
+    <g
+       id="g2090"
+       transform="translate(466.65739,-235.74416)"
+       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\buttons\button_right.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000"
+         d="m 847.40991,1020.1099 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.1359 h -16.13352 -16.13351 v -16.1359 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13351 z"
+         id="path2084" />
+      <path
+         id="path2086"
+         d="m 849.00957,1021.7045 v 16.1361 h 16.1335 v 16.136 16.136 h -16.1335 v 16.136 h -16.13351 -16.13352 v -16.136 h -16.13349 v -16.136 -16.136 h 16.13349 v -16.1361 h 16.13352 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.64583;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000" />
+    </g>
+    <g
+       transform="rotate(-90,1257.3293,772.90496)"
+       id="g2096"
+       style="fill:#ffffff">
+      <path
+         d="m 1201.6802,818.54944 h 3.9325 v -3.93248 h 3.9326 v -3.93256 h 3.9324 v 3.93256 h 3.9326 v 3.93248 h 3.9325 3.9326 v -3.93248 h -3.9326 v -3.93256 h -3.9325 v -3.9325 h -3.9326 v -3.93256 h -3.9324 v 3.93256 h -3.9326 v 3.9325 h -3.9325 v 3.93256 h -3.9325 v 3.93248 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path2092"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round"
+         id="rect2094"
+         width="14.312989"
+         height="4.547524"
+         x="815.02124"
+         y="-1213.8085"
+         transform="rotate(90)" />
+    </g>
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g1652"
+       transform="matrix(0,1,1,0,-221.95654,245.50577)"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\arrow-up.png">
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect1646"
+         width="16.933332"
+         height="16.933344"
+         x="214.47752"
+         y="433.6232" />
+      <path
+         d="m 223.99905,446.28401 v -1.67765 h -1.67765 v -1.67768 h -1.67768 v -1.67764 h 1.67768 v -1.67769 h 1.67765 v -1.67764 -1.67768 h -1.67765 v 1.67768 h -1.67768 v 1.67764 h -1.67765 v 1.67769 h -1.67768 v 1.67764 h 1.67768 v 1.67768 h 1.67765 v 1.67765 h 1.67768 v 1.67768 h 1.67765 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1648"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1650"
+         width="6.1061039"
+         height="1.9400319"
+         x="222.49388"
+         y="441.10995" />
+    </g>
+    <g
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="g1660"
+       transform="matrix(0,-1,-1,0,687.62319,691.39416)"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\arrow-down.png">
+      <rect
+         inkscape:export-ydpi="96"
+         inkscape:export-xdpi="96"
+         style="opacity:0.5;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="rect1654"
+         width="16.933332"
+         height="16.933344"
+         x="214.47752"
+         y="433.6232" />
+      <path
+         d="m 223.99905,446.28401 v -1.67765 h -1.67765 v -1.67768 h -1.67768 v -1.67764 h 1.67768 v -1.67769 h 1.67765 v -1.67764 -1.67768 h -1.67765 v 1.67768 h -1.67768 v 1.67764 h -1.67765 v 1.67769 h -1.67768 v 1.67764 h 1.67768 v 1.67768 h 1.67765 v 1.67765 h 1.67768 v 1.67768 h 1.67765 z"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;line-height:125%;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.5;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264584px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="path1656"
+         inkscape:connector-curvature="0"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <rect
+         style="opacity:0.5;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264584;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1658"
+         width="6.1061039"
+         height="1.9400319"
+         x="222.49388"
+         y="441.10995" />
     </g>
   </g>
 </svg>
