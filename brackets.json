@@ -1002,6 +1002,33 @@
         "name": "img\\platform_up_down.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/gate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\gate.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/gate_lever_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\gate_lever_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/gate_lever_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\gate_lever_on.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1033,7 +1060,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.5399999999999996,
+        "zoomFactor": 0.3999999999999995,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1159,6 +1186,22 @@
           "x": 64,
           "y": 64,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Version",
+          "persistentUuid": "ddb03650-0c9c-4093-a53d-86927032aefd",
+          "width": 0,
+          "x": 1631,
+          "y": 916,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1599,6 +1642,36 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Version",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": false,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
+          "string": "main",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
         },
         {
           "name": "back_button",
@@ -2149,7 +2222,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.19000000000000328,
+        "zoomFactor": 0.4900000000000033,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5311,6 +5384,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "gate",
+          "persistentUuid": "70d9e22e-16f2-4961-9fe5-814ac03c53d9",
+          "width": 64,
+          "x": 1920,
+          "y": 1152,
+          "zOrder": 303,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -7605,11 +7694,99 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "gate",
+          "tags": "",
+          "texture": "img\\gate.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "gate_lever",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "gateLeverOff",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\gate_lever_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "gateLeverOn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\gate_lever_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -7899,7 +8076,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.2699999999999989,
+        "zoomFactor": 0.2499999999999988,
         "windowMask": false
       },
       "objectsGroups": [
@@ -7957,8 +8134,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 128,
-          "y": -512,
+          "x": 1728,
+          "y": 512,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -7983,14 +8160,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 896,
+          "height": 704,
           "layer": "",
           "locked": false,
           "name": "ladder",
           "persistentUuid": "e6992081-d08c-4f08-9a88-35e648a13d1b",
           "width": 64,
           "x": 3072,
-          "y": -128,
+          "y": 64,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -8005,8 +8182,8 @@
           "name": "coin_1",
           "persistentUuid": "b11c9e33-dc30-4dbf-9b05-fa6e1d8d6173",
           "width": 0,
-          "x": 2496,
-          "y": 704,
+          "x": 3008,
+          "y": -320,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -8037,8 +8214,8 @@
           "name": "Bush",
           "persistentUuid": "66a85485-c4f6-4b71-b9b9-900b3af79b4d",
           "width": 320,
-          "x": 128,
-          "y": 1280,
+          "x": 2752,
+          "y": 768,
           "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
@@ -8431,8 +8608,8 @@
           "name": "heart_level",
           "persistentUuid": "7a3084b5-3c27-4d84-b3fd-8750673d3964",
           "width": 0,
-          "x": 1984,
-          "y": 128,
+          "x": 3008,
+          "y": -448,
           "zOrder": 227,
           "numberProperties": [],
           "stringProperties": [],
@@ -8511,7 +8688,7 @@
           "name": "door",
           "persistentUuid": "e5ce2175-2fb9-4ffe-badc-41bbe0a0b13a",
           "width": 128,
-          "x": 3136,
+          "x": 3200,
           "y": 768,
           "zOrder": 230,
           "numberProperties": [],
@@ -8527,8 +8704,8 @@
           "name": "bg_cloud",
           "persistentUuid": "2b99251c-2528-49a1-936f-265eb3f21e76",
           "width": 512,
-          "x": -512,
-          "y": 1216,
+          "x": 2432,
+          "y": -704,
           "zOrder": 301,
           "numberProperties": [],
           "stringProperties": [],
@@ -8841,14 +9018,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 128,
+          "height": 256,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "ec6e1751-02a1-4416-b70e-7ffdc83eb768",
           "width": 64,
-          "x": 3264,
-          "y": 768,
+          "x": 3328,
+          "y": 704,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -8895,8 +9072,8 @@
           "name": "coin_2",
           "persistentUuid": "874536b3-7f92-49f9-8f3e-16b0f3fd9bf7",
           "width": 0,
-          "x": 2432,
-          "y": 640,
+          "x": 2688,
+          "y": -512,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -9288,22 +9465,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "",
-          "locked": false,
-          "name": "spikes",
-          "persistentUuid": "dfbe8318-2900-47bb-bdb8-705bd6199153",
-          "width": 256,
-          "x": 832,
-          "y": 1298,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -9343,8 +9504,8 @@
           "name": "coin_1",
           "persistentUuid": "a054373c-b4ca-464c-84fa-026273de4055",
           "width": 0,
-          "x": 2368,
-          "y": 704,
+          "x": 2624,
+          "y": -192,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -9423,7 +9584,7 @@
           "name": "GoLeft",
           "persistentUuid": "308254b6-8eb9-4a43-9d84-b54761e8bad6",
           "width": 0,
-          "x": 3072,
+          "x": 3136,
           "y": 832,
           "zOrder": 212,
           "numberProperties": [],
@@ -9487,8 +9648,8 @@
           "name": "platform_jumpthough",
           "persistentUuid": "ab0bed49-da2a-485c-80c1-3a4c4d1ef047",
           "width": 192,
-          "x": 2304,
-          "y": -256,
+          "x": 2624,
+          "y": -384,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -9663,8 +9824,8 @@
           "name": "Slime",
           "persistentUuid": "76f0cb9b-bc22-4865-a99a-660f85329a6e",
           "width": 0,
-          "x": 2624,
-          "y": 320,
+          "x": 2752,
+          "y": 0,
           "zOrder": 228,
           "numberProperties": [],
           "stringProperties": [],
@@ -9679,8 +9840,8 @@
           "name": "GoRight",
           "persistentUuid": "4b4b47fa-24c2-4a3d-a009-797a9096a0be",
           "width": 0,
-          "x": 2310,
-          "y": 320,
+          "x": 2438,
+          "y": 0,
           "zOrder": 225,
           "numberProperties": [],
           "stringProperties": [],
@@ -9695,8 +9856,8 @@
           "name": "GoLeft",
           "persistentUuid": "969e01aa-1332-4042-b2b9-afefa73c4004",
           "width": 0,
-          "x": 2880,
-          "y": 320,
+          "x": 3008,
+          "y": 0,
           "zOrder": 212,
           "numberProperties": [],
           "stringProperties": [],
@@ -10175,7 +10336,7 @@
           "name": "platform_jumpthough",
           "persistentUuid": "2e3d3092-03ef-42d5-a436-21dbf5332df7",
           "width": 64,
-          "x": 1984,
+          "x": 1920,
           "y": 704,
           "zOrder": 13,
           "numberProperties": [],
@@ -10271,8 +10432,8 @@
           "name": "heart_level",
           "persistentUuid": "b8be0bd9-20ec-45a2-b711-0215ad958485",
           "width": 0,
-          "x": 1984,
-          "y": 512,
+          "x": 1920,
+          "y": 768,
           "zOrder": 227,
           "numberProperties": [],
           "stringProperties": [],
@@ -10626,6 +10787,390 @@
           "x": 1024,
           "y": -384,
           "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "45096b7e-8ce6-4128-a38b-45d89a1460b2",
+          "width": 0,
+          "x": 2880,
+          "y": 320,
+          "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Slime",
+          "persistentUuid": "75d17447-e617-4685-b0dc-64537b0ad4e8",
+          "width": 0,
+          "x": 2624,
+          "y": 320,
+          "zOrder": 228,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "55264744-d361-4b36-8f9b-eb81fd345eab",
+          "width": 0,
+          "x": 2310,
+          "y": 320,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "heart_level",
+          "persistentUuid": "98a95935-76cb-400f-9e13-ac13e77240fb",
+          "width": 0,
+          "x": 1984,
+          "y": 128,
+          "zOrder": 227,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "0d3e35bc-82ae-4662-b56d-a91d630cccf3",
+          "width": 192,
+          "x": 2944,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "58a106c6-3212-4d65-b208-d1db4a86a4c6",
+          "width": 192,
+          "x": 2304,
+          "y": -192,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "00d8f651-1a58-4cf3-94a3-1a56f6ffb3ce",
+          "width": 0,
+          "x": 2752,
+          "y": -192,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "5d5e7ba2-582e-4e09-88e7-0e2984a29c40",
+          "width": 0,
+          "x": 2688,
+          "y": -256,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "43ed5ea5-3a80-4bab-a82e-c30c9c2918d8",
+          "width": 0,
+          "x": 2368,
+          "y": -320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "d489befc-dfa5-40d0-b1b6-666d48dd9e1e",
+          "width": 0,
+          "x": 2368,
+          "y": 704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "7adbd02c-1a82-461f-82fc-338c5d25abeb",
+          "width": 0,
+          "x": 2432,
+          "y": 640,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "e87d43f3-d646-47a6-9414-91b4408d0a53",
+          "width": 0,
+          "x": 2496,
+          "y": 704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "fe0b262e-8153-4dc1-9019-5fcbc97b2899",
+          "width": 0,
+          "x": 2496,
+          "y": 192,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "72a780e6-6c26-40e6-8aaf-975db78a41e8",
+          "width": 0,
+          "x": 2560,
+          "y": 128,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "7a81ac98-0072-4a44-bf71-d905e8423b6f",
+          "width": 0,
+          "x": 2624,
+          "y": 192,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "bg_cloud",
+          "persistentUuid": "a1fcaacd-840d-4190-9c08-360a8d5ae20c",
+          "width": 512,
+          "x": 320,
+          "y": -704,
+          "zOrder": 301,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "bg_cloud",
+          "persistentUuid": "b1110894-7dd8-4196-b794-ec94b52c907b",
+          "width": 512,
+          "x": 1408,
+          "y": -640,
+          "zOrder": 301,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "f8ca1e39-ab09-4e0d-9df4-2907239d73f2",
+          "width": 320,
+          "x": 128,
+          "y": 1280,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "b979ddd9-d884-4853-88db-3a9101123f27",
+          "width": 320,
+          "x": 2496,
+          "y": 256,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "ddd44535-29e2-47d0-97a2-b4e8657baefd",
+          "width": 320,
+          "x": 640,
+          "y": 128,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "Bush",
+          "persistentUuid": "13b2bea3-3bf6-4814-a6da-9812c5d63eb5",
+          "width": 320,
+          "x": 1344,
+          "y": 128,
+          "zOrder": 200,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "760da047-0192-4288-831c-e763850477f2",
+          "width": 256,
+          "x": 832,
+          "y": 1298,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "gate",
+          "persistentUuid": "0459db6d-3cfc-4f83-acc1-07086c439c56",
+          "width": 64,
+          "x": 3136,
+          "y": 768,
+          "zOrder": 306,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 128,
+          "layer": "",
+          "locked": false,
+          "name": "gate_lever",
+          "persistentUuid": "7ebc8587-cc10-49cc-a320-449ef009119f",
+          "width": 128,
+          "x": 1920,
+          "y": 576,
+          "zOrder": 307,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12392,8 +12937,8 @@
           "behaviors": [
             {
               "name": "Platform",
-              "platformType": "Jumpthru",
               "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "Jumpthru",
               "canBeGrabbed": true,
               "yGrabOffset": 0
             }
@@ -12930,6 +13475,94 @@
               "yGrabOffset": 0
             }
           ]
+        },
+        {
+          "height": 64,
+          "name": "gate",
+          "tags": "",
+          "texture": "img\\gate.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "gate_lever",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "gateLeverOff",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\gate_lever_off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "gateLeverOn",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\gate_lever_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -12972,6 +13605,40 @@
                 "1",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "gate",
+                "gate.X()",
+                "gate.Y()",
                 ""
               ],
               "subInstructions": []
@@ -13080,6 +13747,74 @@
               "parameters": [
                 "",
                 "\"MainMenu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "gate_lever",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "gate_lever",
+                "\"gateLeverOn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\hurt.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "gate",
                 ""
               ],
               "subInstructions": []
