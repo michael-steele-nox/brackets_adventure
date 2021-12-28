@@ -2261,7 +2261,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.35000000000000264,
+        "zoomFactor": 0.31000000000000183,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2322,7 +2322,7 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 128,
+          "x": 64,
           "y": -448,
           "zOrder": 100,
           "numberProperties": [],
@@ -2332,13 +2332,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 64,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "48f2baaa-eda1-44e7-b02c-819ab32aa7ea",
-          "width": 320,
-          "x": 1664,
+          "width": 512,
+          "x": 1600,
           "y": 704,
           "zOrder": 10,
           "numberProperties": [],
@@ -2353,7 +2353,7 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "29893cff-01af-4bd4-87a1-09b1e5e52b9f",
-          "width": 1664,
+          "width": 1408,
           "x": -512,
           "y": 960,
           "zOrder": 10,
@@ -2380,14 +2380,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 896,
+          "height": 384,
           "layer": "",
           "locked": false,
           "name": "platform",
           "persistentUuid": "b2d7e805-533b-44cc-a1b1-6426453b607e",
           "width": 64,
-          "x": 2048,
-          "y": -192,
+          "x": 1536,
+          "y": 64,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2402,8 +2402,8 @@
           "name": "coin_1",
           "persistentUuid": "09332726-8345-4c2c-827f-26583db6aaa9",
           "width": 0,
-          "x": 576,
-          "y": 320,
+          "x": 640,
+          "y": -384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2451,7 +2451,7 @@
           "persistentUuid": "6272ac90-5d33-4d4f-9b5d-5c15460ff664",
           "width": 64,
           "x": -384,
-          "y": -64,
+          "y": -256,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2530,7 +2530,7 @@
           "name": "coin_2",
           "persistentUuid": "bd133a55-7b0f-4ee8-a929-00f152517f31",
           "width": 0,
-          "x": 1728,
+          "x": 1984,
           "y": 896,
           "zOrder": 102,
           "numberProperties": [],
@@ -2562,8 +2562,8 @@
           "name": "Bush",
           "persistentUuid": "66a85485-c4f6-4b71-b9b9-900b3af79b4d",
           "width": 320,
-          "x": -256,
-          "y": -448,
+          "x": -192,
+          "y": -640,
           "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
@@ -2689,8 +2689,8 @@
           "locked": false,
           "name": "platform",
           "persistentUuid": "f36f2138-bbc6-4c6a-ab81-ff2f12f64311",
-          "width": 576,
-          "x": 256,
+          "width": 640,
+          "x": 192,
           "y": 576,
           "zOrder": 6,
           "numberProperties": [],
@@ -2978,8 +2978,8 @@
           "name": "coin_2",
           "persistentUuid": "bf572080-1119-4656-9fea-aa408e3093c8",
           "width": 0,
-          "x": 192,
-          "y": 576,
+          "x": 704,
+          "y": -384,
           "zOrder": 212,
           "numberProperties": [],
           "stringProperties": [],
@@ -3286,7 +3286,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1088,
+          "height": 1152,
           "layer": "",
           "locked": false,
           "name": "ground_green",
@@ -3302,14 +3302,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 128,
           "layer": "",
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "36710090-d5a0-4eb9-af16-b8062b569d74",
-          "width": 512,
-          "x": -320,
-          "y": -320,
+          "width": 64,
+          "x": 128,
+          "y": -448,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3318,7 +3318,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1152,
+          "height": 1024,
           "layer": "",
           "locked": false,
           "name": "ground_green",
@@ -3326,22 +3326,6 @@
           "width": 64,
           "x": -320,
           "y": -256,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "372a0620-0051-4052-b7b1-f04d68225b1a",
-          "width": 320,
-          "x": -192,
-          "y": 832,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3430,7 +3414,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1152,
+          "height": 768,
           "layer": "",
           "locked": false,
           "name": "ladder",
@@ -3446,7 +3430,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 320,
           "layer": "",
           "locked": false,
           "name": "ladder",
@@ -3454,22 +3438,6 @@
           "width": 64,
           "x": 64,
           "y": 640,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 192,
-          "layer": "",
-          "locked": false,
-          "name": "ladder",
-          "persistentUuid": "64a3e17e-c9e7-4b5b-a82b-0fb98c767a54",
-          "width": 64,
-          "x": -256,
-          "y": 768,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -3612,8 +3580,8 @@
           "name": "platform_moving",
           "persistentUuid": "d866fb47-46cd-40f9-8a50-ff10bb7ef1df",
           "width": 192,
-          "x": 1984,
-          "y": 768,
+          "x": 2240,
+          "y": 960,
           "zOrder": 220,
           "numberProperties": [],
           "stringProperties": [],
@@ -3644,8 +3612,8 @@
           "name": "coin_2",
           "persistentUuid": "78571ec6-97ab-4f9b-85d4-9b8d3d83dd99",
           "width": 0,
-          "x": 384,
-          "y": 320,
+          "x": 448,
+          "y": -384,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -3660,8 +3628,8 @@
           "name": "coin_1",
           "persistentUuid": "99e038e1-26f3-465c-96de-d88b4d028a2a",
           "width": 0,
-          "x": 448,
-          "y": 320,
+          "x": 512,
+          "y": -384,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -3756,8 +3724,8 @@
           "name": "coin_2",
           "persistentUuid": "ebb07a9b-382c-44aa-96d3-2bd04e7bd134",
           "width": 0,
-          "x": 512,
-          "y": 320,
+          "x": 576,
+          "y": -384,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -3964,8 +3932,8 @@
           "name": "coin_1",
           "persistentUuid": "f87b1070-4b68-4c86-9ad0-0ab6205a7728",
           "width": 0,
-          "x": 1856,
-          "y": -128,
+          "x": 1728,
+          "y": -192,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -4074,22 +4042,6 @@
           "layer": "",
           "locked": false,
           "name": "Bush",
-          "persistentUuid": "d0be5108-bd04-4332-a0a9-687031b2a622",
-          "width": 320,
-          "x": 768,
-          "y": 832,
-          "zOrder": 200,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128,
-          "layer": "",
-          "locked": false,
-          "name": "Bush",
           "persistentUuid": "c73e9616-3068-4b7f-a59f-23e5e391708b",
           "width": 320,
           "x": 384,
@@ -4171,8 +4123,8 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "d9b895f4-fe7b-4b48-bd31-0665e7dfc676",
-          "width": 512,
-          "x": 1088,
+          "width": 768,
+          "x": 832,
           "y": 1024,
           "zOrder": 10,
           "numberProperties": [],
@@ -4187,8 +4139,8 @@
           "locked": false,
           "name": "platform_jumpthough",
           "persistentUuid": "8695c146-0955-4847-9eba-426e1a9eca19",
-          "width": 320,
-          "x": 1023,
+          "width": 64,
+          "x": 2112,
           "y": 704,
           "zOrder": 13,
           "numberProperties": [],
@@ -4812,7 +4764,7 @@
           "name": "GoLeft",
           "persistentUuid": "36c9646f-d33c-4e56-83d7-dcd083d0fc23",
           "width": 0,
-          "x": 192,
+          "x": 128,
           "y": 896,
           "zOrder": 212,
           "numberProperties": [],
@@ -4860,8 +4812,8 @@
           "name": "GoRight",
           "persistentUuid": "5f4b4c8f-c2a8-4926-b8d5-41c26a0b094e",
           "width": 0,
-          "x": 1920,
-          "y": 768,
+          "x": 1984,
+          "y": 960,
           "zOrder": 225,
           "numberProperties": [],
           "stringProperties": [],
@@ -4877,7 +4829,7 @@
           "persistentUuid": "c9ec3539-dc6d-430e-b789-803cf05ef25e",
           "width": 0,
           "x": 2560,
-          "y": 768,
+          "y": 960,
           "zOrder": 226,
           "numberProperties": [],
           "stringProperties": [],
@@ -4940,7 +4892,7 @@
           "name": "GoRight",
           "persistentUuid": "df0a05dd-8017-4794-bc01-bdcba462c09d",
           "width": 0,
-          "x": 1472,
+          "x": 1536,
           "y": -64,
           "zOrder": 225,
           "numberProperties": [],
@@ -4956,7 +4908,7 @@
           "name": "GoLeft",
           "persistentUuid": "dce3efa9-90ab-4f58-95a0-8710da5457ba",
           "width": 0,
-          "x": 1984,
+          "x": 1920,
           "y": -64,
           "zOrder": 226,
           "numberProperties": [],
@@ -4988,7 +4940,7 @@
           "name": "Slime",
           "persistentUuid": "94dc78e4-8ab7-48fe-a819-7513962798fe",
           "width": 0,
-          "x": 128,
+          "x": 64,
           "y": 896,
           "zOrder": 228,
           "numberProperties": [],
@@ -5132,7 +5084,7 @@
           "name": "GoRight",
           "persistentUuid": "a9d5921e-b66f-4184-85b8-8f98926810e4",
           "width": 0,
-          "x": 192,
+          "x": 128,
           "y": 512,
           "zOrder": 225,
           "numberProperties": [],
@@ -5284,16 +5236,16 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 180,
           "customSize": true,
           "height": 46,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "5bf0a0c9-0e83-4da0-a105-e0a2b563536d",
-          "width": 320,
-          "x": 384,
-          "y": 914,
+          "width": 64,
+          "x": 0,
+          "y": 768,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -5323,8 +5275,8 @@
           "locked": false,
           "name": "water",
           "persistentUuid": "0e9ea644-559a-4258-91f3-5d617c2d8f21",
-          "width": 384,
-          "x": 1152,
+          "width": 640,
+          "x": 896,
           "y": 972,
           "zOrder": 200,
           "numberProperties": [],
@@ -5404,8 +5356,8 @@
           "name": "bg_cloud",
           "persistentUuid": "2b99251c-2528-49a1-936f-265eb3f21e76",
           "width": 512,
-          "x": 960,
-          "y": -192,
+          "x": 768,
+          "y": -704,
           "zOrder": 301,
           "numberProperties": [],
           "stringProperties": [],
@@ -5429,22 +5381,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "ground_green",
-          "persistentUuid": "3680130e-58cc-4cd4-8126-edf7f61e173a",
-          "width": 448,
-          "x": 1600,
-          "y": 960,
-          "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -5452,7 +5388,7 @@
           "name": "gate_lever",
           "persistentUuid": "b0d42783-a6c6-43ee-b627-2d2e7fa1b981",
           "width": 0,
-          "x": 1984,
+          "x": 1591,
           "y": 832,
           "zOrder": 304,
           "numberProperties": [],
@@ -5471,6 +5407,310 @@
           "x": 2560,
           "y": 832,
           "zOrder": 305,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "77596906-5c3e-446e-adb2-71f3269a87c8",
+          "width": 448,
+          "x": 1600,
+          "y": 960,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "d3488aec-6c6e-4957-ae69-b40d38a5b86b",
+          "width": 0,
+          "x": 1728,
+          "y": 896,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "a383b509-89df-4046-abd2-f815adf0f873",
+          "width": 320,
+          "x": 1023,
+          "y": 704,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "405fab83-5cf3-4265-ab8b-3fd725420da6",
+          "width": 512,
+          "x": -320,
+          "y": -320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 896,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "51a3fd55-3029-4e7d-be71-78a083fa1772",
+          "width": 64,
+          "x": 2048,
+          "y": -192,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "e5903b0a-dd1a-4fbb-947d-6359c63e236d",
+          "width": 0,
+          "x": 384,
+          "y": 320,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "7c652fb8-5989-4f26-ae94-724dd1559dc3",
+          "width": 0,
+          "x": 448,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "f990f2d4-1fd6-4a11-a0cc-f8444b04c934",
+          "width": 0,
+          "x": 512,
+          "y": 320,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_1",
+          "persistentUuid": "9c08639f-2435-4a7b-b004-93446652c56b",
+          "width": 0,
+          "x": 576,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "coin_2",
+          "persistentUuid": "b209d7ab-9c31-4e37-acfb-029695a26584",
+          "width": 0,
+          "x": 640,
+          "y": 320,
+          "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "4fcc77b0-5153-4bd5-b37b-7f9b85a6ce7a",
+          "width": 64,
+          "x": 1920,
+          "y": -448,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "974079bd-c989-433c-bfea-ce488de0cf7e",
+          "width": 320,
+          "x": 384,
+          "y": 914,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "bb43e8e0-e799-416e-ae72-2b3d65f030f7",
+          "width": 64,
+          "x": -384,
+          "y": -192,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "platform_jumpthough",
+          "persistentUuid": "8809beff-94e9-401e-a645-6d54d64e2591",
+          "width": 64,
+          "x": -384,
+          "y": -64,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "dcab1e52-f1ff-4f60-a574-476e2199276d",
+          "width": 64,
+          "x": -320,
+          "y": 768,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "0839f5e6-0aa8-4af9-a0c6-1085c00031c8",
+          "width": 64,
+          "x": -384,
+          "y": 576,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "d7389cc4-1450-4fe0-916c-e7459d97d6aa",
+          "width": 64,
+          "x": -384,
+          "y": 384,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "93d363ee-7a82-4c18-9744-d4948f84c5c9",
+          "width": 64,
+          "x": -384,
+          "y": 192,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "0fc2efeb-5cb8-422f-8818-91e0d5bd5e98",
+          "width": 64,
+          "x": -384,
+          "y": 0,
+          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5524,10 +5764,10 @@
               "CooldownActive": false
             },
             {
-              "canGrabPlatforms": false,
-              "jumpSustainTime": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGrabPlatforms": false,
+              "jumpSustainTime": 0,
               "maxFallingSpeed": 700,
               "ignoreDefaultControls": false,
               "ladderClimbingSpeed": 400,
@@ -5802,9 +6042,9 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
               "yGrabOffset": 0,
               "platformType": "Ladder"
             }
@@ -15224,267 +15464,281 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "restart_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "restart_button",
+                    "\"Pressed\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 1\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 2\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 3\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "4"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 4\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 5\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "LevelNumber",
+                        "=",
+                        "6"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Level 6\"",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "restart_button",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "restart_button",
+                    "\"Normal\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "restart_button",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "restart_button",
-                "\"Pressed\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 1\"",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 1\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "2"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 2\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "3"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 2\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "4"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 4\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "5"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 5\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "LevelNumber",
-                    "=",
-                    "6"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Level 6\"",
-                    "yes"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ]
     },
@@ -15724,7 +15978,106 @@
               ]
             },
             {
+              "disabled": true,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "hero",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
               "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "ladder",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlatformBehavior::SimulateLadderKey"
+                  },
+                  "parameters": [
+                    "hero",
+                    "PlatformerObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "hero",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": true,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -15771,18 +16124,25 @@
                     "PlatformerObject"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ChangeAnimation"
+                    "value": "PlatformBehavior::SetCanJump"
                   },
                   "parameters": [
                     "hero",
-                    "=",
-                    "1"
+                    "PlatformerObject"
                   ],
                   "subInstructions": []
                 }
@@ -17533,7 +17893,7 @@
                 "hero",
                 "Tween",
                 "\"DamageColor\"",
-                "\"252;10;10\"",
+                "\"240;11;11\"",
                 "\"linear\"",
                 "500",
                 "",
@@ -17587,7 +17947,7 @@
                 "\"DamageColor\"",
                 "\"255;255;255\"",
                 "\"linear\"",
-                "1000",
+                "500",
                 "",
                 ""
               ],
