@@ -1038,6 +1038,60 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/1_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\1_normal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/1_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\1_pressed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/2_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\2_normal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/2_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\2_pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/locked_normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\locked_normal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/level_number/locked_pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\level_number\\locked_pressed.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1047,6 +1101,11 @@
   "variables": [
     {
       "name": "LevelNumber",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "BackPressed",
       "type": "string",
       "value": ""
     }
@@ -1075,7 +1134,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.3999999999999995,
+        "zoomFactor": 0.4599999999999996,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1779,7 +1838,7 @@
           "target": "PlayerMovement"
         },
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1804,6 +1863,105 @@
                 "LevelNumber",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "back_button",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BackPressed",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "BackPressed",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "back_button",
+                "64",
+                "64",
+                ""
               ],
               "subInstructions": []
             }
@@ -1911,6 +2069,51 @@
           "events": []
         },
         {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "play_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "play_button",
+                "\"playButtonPressed\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
@@ -1944,12 +2147,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "PushScene"
               },
               "parameters": [
                 "",
-                "\"Level 1\"",
-                "yes"
+                "\"LevelSelect\""
               ],
               "subInstructions": []
             }
@@ -2239,6 +2441,1578 @@
       ]
     },
     {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "LevelSelect",
+      "name": "LevelSelect",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 64,
+        "gridHeight": 64,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 9442302,
+        "gridAlpha": 0.2,
+        "snap": true,
+        "zoomFactor": 0.31999999999999973,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Menu",
+          "objects": [
+            {
+              "name": "play_button"
+            },
+            {
+              "name": "quit_button"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1536,
+          "layer": "Background",
+          "locked": true,
+          "name": "bg",
+          "persistentUuid": "61d9614d-0259-435a-a374-faa2f35eeecf",
+          "width": 2304,
+          "x": -192,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Version",
+          "persistentUuid": "ddb03650-0c9c-4093-a53d-86927032aefd",
+          "width": 0,
+          "x": 1631,
+          "y": 916,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_1",
+          "persistentUuid": "1f1cd4fe-0f75-4aa4-bdaf-5b188d8fdd39",
+          "width": 192,
+          "x": 384,
+          "y": 64,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_2",
+          "persistentUuid": "eb1b0cea-bfa0-47f6-9044-ebf8a59acb0a",
+          "width": 192,
+          "x": 640,
+          "y": 64,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "b79b27df-8537-4c03-9c47-04794b9f7549",
+          "width": 192,
+          "x": 384,
+          "y": 832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "c909f904-0c90-4f8a-8448-c043a8e34a19",
+          "width": 192,
+          "x": 640,
+          "y": 832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "8aea9ca5-1689-4697-b804-401ee2f2a9c4",
+          "width": 192,
+          "x": 1152,
+          "y": 832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "8bd4ce3a-b603-40f3-8ebc-ee6eb9be25c8",
+          "width": 192,
+          "x": 896,
+          "y": 832,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "1c2e0161-85e2-4179-9415-1de16f7dbb73",
+          "width": 192,
+          "x": 896,
+          "y": 64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "fd293519-6afd-4e9b-ad96-855e602839f1",
+          "width": 192,
+          "x": 1152,
+          "y": 64,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "b4309277-0869-4a9a-930e-1ae3cfc641eb",
+          "width": 192,
+          "x": 384,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "3598d683-5407-4acd-9091-beae972df472",
+          "width": 192,
+          "x": 640,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "38aefd1d-e396-42fc-9b8d-27157b1a50e5",
+          "width": 192,
+          "x": 896,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "e75e5664-6073-494d-af06-bf5a4b628e3f",
+          "width": 192,
+          "x": 1152,
+          "y": 320,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "9154d936-0f14-4193-85c1-5e92d0dd6140",
+          "width": 192,
+          "x": 384,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "91f59734-1028-4cf8-9a0e-15b86ae95aa0",
+          "width": 192,
+          "x": 640,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "4148e266-5f96-44ef-a825-e4d3693dd1a2",
+          "width": 192,
+          "x": 896,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "level_locked",
+          "persistentUuid": "11cbcf89-48b3-4d28-90dd-f4ee33104d67",
+          "width": 192,
+          "x": 1152,
+          "y": 576,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1280,
+          "layer": "Background",
+          "locked": false,
+          "name": "grid",
+          "persistentUuid": "7a31ce29-2b37-49c8-9649-64d6e82b0e2f",
+          "width": 2176,
+          "x": -128,
+          "y": -64,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "back_button",
+          "persistentUuid": "61a9438c-3de7-43c1-817f-3ee4cfee50a2",
+          "width": 192,
+          "x": 64,
+          "y": 64,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 64,
+          "name": "bg",
+          "tags": "",
+          "texture": "img\\bg.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "grid",
+          "tags": "",
+          "texture": "img\\grid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "HorizontalTiledSpriteParallax",
+              "type": "Parallax::HorizontalTiledSpriteParallax",
+              "ParallaxFactor": 0.5,
+              "FollowedLayer": ""
+            }
+          ]
+        },
+        {
+          "name": "play_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "playButtonNormal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\play_button-normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "playButtonPressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\play_button-pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "quit_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "quitButtonNormal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\quit_button-normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "quitButtonPressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\quit_button-pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hero",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Health",
+              "type": "Health::Health",
+              "Health": 100,
+              "DamageCooldown": 0,
+              "MaxHealth": 100,
+              "IsJustDamaged": false,
+              "CooldownActive": false
+            },
+            {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "maxFallingSpeed": 700,
+              "ignoreDefaultControls": false,
+              "ladderClimbingSpeed": 400,
+              "acceleration": 1500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "jumpSpeed": 1000,
+              "maxSpeed": 400,
+              "roundCoordinates": true,
+              "slopeMaxAngle": 60,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1429,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "img\\hero_idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 93
+                          },
+                          {
+                            "x": 15,
+                            "y": 93
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "img\\hero_idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 93
+                          },
+                          {
+                            "x": 15,
+                            "y": 93
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "img\\hero_idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 93
+                          },
+                          {
+                            "x": 15,
+                            "y": 93
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "img\\hero_idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 93
+                          },
+                          {
+                            "x": 15,
+                            "y": 93
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "img\\hero_jump.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 15
+                          },
+                          {
+                            "x": 80,
+                            "y": 93
+                          },
+                          {
+                            "x": 15,
+                            "y": 93
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "platform_moving",
+          "tags": "",
+          "texture": "img\\platform_moving.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Version",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 2,
+              "relativeToOriginalWindowSize": false,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2
+            }
+          ],
+          "string": "main",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "name": "back_button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Anchor",
+              "type": "AnchorBehavior::AnchorBehavior",
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "relativeToOriginalWindowSize": false,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "backButtonNormal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\back_button-normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "backButtonPressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\menu\\back_button-pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level_1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "level_1_Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\1_normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "level_1_Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\1_pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "level_2_Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\2_normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "level_2_Presed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\2_pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "level_locked",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "level_locked_Normal",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\locked_normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "level_locked_Pressed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\level_number\\locked_pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PlayerMovement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TouchSimulateMouse"
+              },
+              "parameters": [
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "music\\Bubble-Gum-Puzzler.mp3",
+                "0",
+                "yes",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Menu",
+                "=",
+                "SceneWindowWidth()/2",
+                "=",
+                "SceneWindowHeight()/2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "back_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "back_button",
+                "\"backButtonPressed\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PopScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "back_button",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "back_button",
+                "\"backButtonNormal\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "level_1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "level_1",
+                "\"level_1_Pressed\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "level_1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "level_1",
+                "\"level_1_Normal\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "level_2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "level_2",
+                "\"level_2_Pressed\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 2\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "level_2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "level_2",
+                "\"level_2_Normal\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 33554432,
+          "ambientLightColorG": 6025840,
+          "ambientLightColorR": 8587336,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8054936,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": -2147483632,
+          "ambientLightColorG": 6025840,
+          "ambientLightColorR": 8011360,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health"
+        },
+        {
+          "name": "HorizontalTiledSpriteParallax",
+          "type": "Parallax::HorizontalTiledSpriteParallax"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        }
+      ]
+    },
+    {
       "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Level_321",
@@ -2261,7 +4035,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.31000000000000183,
+        "zoomFactor": 0.3500000000000018,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3580,7 +5354,7 @@
           "name": "platform_moving",
           "persistentUuid": "d866fb47-46cd-40f9-8a50-ff10bb7ef1df",
           "width": 192,
-          "x": 2240,
+          "x": 2368,
           "y": 960,
           "zOrder": 220,
           "numberProperties": [],
@@ -6883,8 +8657,8 @@
           "characterSize": 96,
           "color": {
             "b": 254,
-            "g": 19,
-            "r": 144
+            "g": 238,
+            "r": 19
           }
         },
         {
@@ -8165,6 +9939,38 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "StopMusicCanal"
               },
               "parameters": [
@@ -8185,18 +9991,6 @@
                 "yes",
                 "",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "LevelNumber",
-                "=",
-                "1"
               ],
               "subInstructions": []
             }
@@ -14109,6 +15903,38 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LevelNumber",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -14748,7 +16574,7 @@
       "name": "VirtualControlsManagement",
       "events": [
         {
-          "disabled": false,
+          "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -15739,6 +17565,41 @@
               "events": []
             }
           ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "pause_button",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BackPressed",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
