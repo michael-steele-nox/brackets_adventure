@@ -1182,51 +1182,6 @@
         "name": "img\\menu\\continue-pressed.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "file": "music/Techno-Gameplay_Looping.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\Techno-Gameplay_Looping.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "music/Techno-Caper_Looping.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\Techno-Caper_Looping.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "music/Arctic-Puzzler.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\Arctic-Puzzler.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "music/Light-Puzzles-9.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "music\\Light-Puzzles-9.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "sounds/push_menu.wav",
-        "kind": "audio",
-        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"push_menu\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.06,\\\"sustainPunch\\\":0,\\\"decay\\\":0.07,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":400,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":60,\\\"squareDutySweep\\\":40,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"push_menu\"}}",
-        "name": "sounds\\push_menu.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1274,16 +1229,13 @@
       },
       "objectsGroups": [
         {
-          "name": "MenuButtons",
+          "name": "Menu",
           "objects": [
             {
               "name": "play_button"
             },
             {
               "name": "quit_button"
-            },
-            {
-              "name": "continue_button"
             }
           ]
         }
@@ -2280,7 +2232,7 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "MenuButtons",
+                "Menu",
                 "=",
                 "SceneWindowWidth()/2",
                 "=",
@@ -2592,43 +2544,6 @@
             }
           ],
           "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "MenuButtons",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sounds\\push_menu.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
         }
       ],
       "layers": [
@@ -2728,22 +2643,13 @@
       },
       "objectsGroups": [
         {
-          "name": "LevelButtons",
+          "name": "Menu",
           "objects": [
             {
-              "name": "back_button"
+              "name": "play_button"
             },
             {
-              "name": "level_locked"
-            },
-            {
-              "name": "level_1"
-            },
-            {
-              "name": "level_2"
-            },
-            {
-              "name": "level_3"
+              "name": "quit_button"
             }
           ]
         }
@@ -3793,7 +3699,7 @@
               ]
             },
             {
-              "name": "level_2_Pressed",
+              "name": "level_2_Presed",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4024,56 +3930,11 @@
                 "value": "MettreXY"
               },
               "parameters": [
-                "LevelButtons",
+                "Menu",
                 "=",
                 "SceneWindowWidth()/2",
                 "=",
                 "SceneWindowHeight()/2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "LevelButtons",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sounds\\push_menu.wav",
-                "",
-                "",
-                ""
               ],
               "subInstructions": []
             }
@@ -4152,74 +4013,6 @@
               "parameters": [
                 "back_button",
                 "\"backButtonNormal\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "level_locked",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "level_locked",
-                "\"level_locked_Pressed\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "level_locked",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "level_locked",
-                "\"level_locked_Normal\""
               ],
               "subInstructions": []
             }
@@ -8044,13 +7837,6 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
@@ -10987,10 +10773,6 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
-        {
           "name": "Health",
           "type": "Health::Health"
         },
@@ -11035,7 +10817,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.3099999999999982,
+        "zoomFactor": 0.5499999999999984,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14225,13 +14007,6 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
@@ -14241,7 +14016,6 @@
               "CooldownActive": false
             },
             {
-              "jumpSpeed": 1000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxFallingSpeed": 700,
@@ -14251,6 +14025,7 @@
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
+              "jumpSpeed": 1000,
               "maxSpeed": 400,
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
@@ -16820,7 +16595,7 @@
               },
               "parameters": [
                 "",
-                "music\\Arctic-Puzzler.mp3",
+                "music\\Mind-Bender.mp3",
                 "1",
                 "yes",
                 "",
@@ -17346,10 +17121,6 @@
           "type": "AnchorBehavior::AnchorBehavior"
         },
         {
-          "name": "Flash",
-          "type": "Flash::Flash"
-        },
-        {
           "name": "Health",
           "type": "Health::Health"
         },
@@ -17394,7 +17165,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.5899999999999973,
+        "zoomFactor": 0.3299999999999973,
         "windowMask": false
       },
       "objectsGroups": [
@@ -17455,7 +17226,7 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 3072,
+          "x": 2944,
           "y": 768,
           "zOrder": 100,
           "numberProperties": [],
@@ -19721,8 +19492,8 @@
           "name": "GoLeft",
           "persistentUuid": "45096b7e-8ce6-4128-a38b-45d89a1460b2",
           "width": 0,
-          "x": 3008,
-          "y": 832,
+          "x": 2880,
+          "y": 320,
           "zOrder": 212,
           "numberProperties": [],
           "stringProperties": [],
@@ -19737,8 +19508,8 @@
           "name": "Slime",
           "persistentUuid": "75d17447-e617-4685-b0dc-64537b0ad4e8",
           "width": 0,
-          "x": 2816,
-          "y": 832,
+          "x": 2624,
+          "y": 320,
           "zOrder": 228,
           "numberProperties": [],
           "stringProperties": [],
@@ -19753,8 +19524,8 @@
           "name": "GoRight",
           "persistentUuid": "55264744-d361-4b36-8f9b-eb81fd345eab",
           "width": 0,
-          "x": 2176,
-          "y": 860,
+          "x": 2310,
+          "y": 320,
           "zOrder": 225,
           "numberProperties": [],
           "stringProperties": [],
@@ -20009,8 +19780,8 @@
           "name": "Bush",
           "persistentUuid": "b979ddd9-d884-4853-88db-3a9101123f27",
           "width": 320,
-          "x": 2176,
-          "y": 768,
+          "x": 2496,
+          "y": 256,
           "zOrder": 200,
           "numberProperties": [],
           "stringProperties": [],
@@ -20106,8 +19877,24 @@
           "persistentUuid": "411aa492-c000-4ae5-a635-a1b1dd91ff59",
           "width": 128,
           "x": 3200,
-          "y": -320,
+          "y": -448,
           "zOrder": 308,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "push_button",
+          "persistentUuid": "56e6e4b1-a0e0-460f-8b43-e6ecf3e62ce8",
+          "width": 64,
+          "x": 1984,
+          "y": 448,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20138,7 +19925,7 @@
           "persistentUuid": "9c7b8d0a-d055-4127-9c02-c3ef880476e9",
           "width": 0,
           "x": 3456,
-          "y": -384,
+          "y": -512,
           "zOrder": 311,
           "numberProperties": [],
           "stringProperties": [],
@@ -20719,102 +20506,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "persistentUuid": "abdc90df-e826-489f-aa29-9bae53484ffa",
-          "width": 0,
-          "x": 2880,
-          "y": 320,
-          "zOrder": 212,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Slime",
-          "persistentUuid": "245521c3-5c61-4984-894e-91a7dfe790d8",
-          "width": 0,
-          "x": 2624,
-          "y": 320,
-          "zOrder": 228,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "persistentUuid": "0d4b9c90-24b9-4ba1-87fa-9ebc96d83066",
-          "width": 0,
-          "x": 2880,
-          "y": 320,
-          "zOrder": 212,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Slime",
-          "persistentUuid": "8b3cd039-35b4-461f-a6a1-8a82718c4692",
-          "width": 0,
-          "x": 2624,
-          "y": 320,
-          "zOrder": 228,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "persistentUuid": "92a0946f-2e77-4bbc-a931-06ecb1495f72",
-          "width": 0,
-          "x": 2310,
-          "y": 320,
-          "zOrder": 225,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "",
-          "locked": false,
-          "name": "push_button",
-          "persistentUuid": "7de91940-8964-4d9b-923d-52bfcc89cbd0",
-          "width": 64,
-          "x": 1984,
-          "y": 448,
-          "zOrder": 99,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -20856,13 +20547,6 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Flash",
-              "type": "Flash::Flash",
-              "HalfPeriodTime": 0.1,
-              "IsFlashing": false,
-              "FlashDuration": 0
-            },
-            {
               "name": "Health",
               "type": "Health::Health",
               "Health": 100,
@@ -20872,7 +20556,6 @@
               "CooldownActive": false
             },
             {
-              "jumpSpeed": 1000,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxFallingSpeed": 700,
@@ -20882,6 +20565,7 @@
               "canGrabPlatforms": false,
               "deceleration": 1500,
               "gravity": 1000,
+              "jumpSpeed": 1000,
               "maxSpeed": 400,
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
@@ -23451,7 +23135,7 @@
               },
               "parameters": [
                 "",
-                "music\\Light-Puzzles-9.mp3",
+                "music\\Mind-Bender.mp3",
                 "1",
                 "yes",
                 "",
@@ -23841,7 +23525,7 @@
                 "",
                 "GoDownQuest_1",
                 "3264",
-                "-384",
+                "-512",
                 ""
               ],
               "subInstructions": []
@@ -23975,10 +23659,6 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior"
-        },
-        {
-          "name": "Flash",
-          "type": "Flash::Flash"
         },
         {
           "name": "Health",
@@ -27320,18 +27000,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "\"DamageEnemyTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -27344,32 +27012,7 @@
                   "subInstructions": []
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"DamageEnemyTimer\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Flash::Flash::Flash"
-                  },
-                  "parameters": [
-                    "hero",
-                    "Flash",
-                    "1",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "disabled": false,
@@ -27385,6 +27028,14 @@
                         "hero",
                         "PlatformerObject"
                       ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
                       "subInstructions": []
                     }
                   ],
@@ -27686,7 +27337,7 @@
                 "\"DamageColor\"",
                 "\"240;11;11\"",
                 "\"linear\"",
-                "100",
+                "500",
                 "",
                 ""
               ],
@@ -27700,19 +27351,6 @@
               "parameters": [
                 "",
                 "\"DamageTimer\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Flash::Flash::Flash"
-              },
-              "parameters": [
-                "hero",
-                "Flash",
-                "1",
-                ""
               ],
               "subInstructions": []
             }
@@ -27751,8 +27389,77 @@
                 "\"DamageColor\"",
                 "\"255;255;255\"",
                 "\"linear\"",
-                "100",
+                "500",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::IsMoving"
+              },
+              "parameters": [
+                "hero",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "hero",
+                "ElementalForce",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Life",
+                "-",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds\\hurt.wav",
+                "",
+                "50",
                 ""
               ],
               "subInstructions": []
@@ -27764,634 +27471,6 @@
     }
   ],
   "eventsFunctionsExtensions": [
-    {
-      "author": "@4ian",
-      "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
-      "extensionNamespace": "",
-      "fullName": "Flash (blink)",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYXNoLW91dGxpbmUiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNywySDE3TDEzLjUsOUgxN0wxMCwyMlYxNEg3VjJNOSw0VjEySDEyVjE0LjY2TDE0LDExSDEwLjI0TDEzLjc2LDRIOVoiIC8+PC9zdmc+",
-      "name": "Flash",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg",
-      "shortDescription": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
-      "version": "1.0.0",
-      "tags": [
-        "flash",
-        "blink",
-        "visible",
-        "invisible",
-        "hit",
-        "damage"
-      ],
-      "authorIds": [
-        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2"
-      ],
-      "dependencies": [],
-      "eventsFunctions": [],
-      "eventsBasedBehaviors": [
-        {
-          "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nTrigger the effect by using the Flash action.",
-          "fullName": "Flash (blink)",
-          "name": "Flash",
-          "objectType": "",
-          "eventsFunctions": [
-            {
-              "description": "",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "private": false,
-              "sentence": "",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::PropertyIsFlashing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"FlashTimer\"",
-                            "Object.Behavior::PropertyHalfPeriodTime()"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Visible"
-                          },
-                          "parameters": [
-                            "Object"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "Object"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"FlashTimer\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"FlashTimer\"",
-                            "Object.Behavior::PropertyHalfPeriodTime()"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Visible"
-                          },
-                          "parameters": [
-                            "Object"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Montre"
-                          },
-                          "parameters": [
-                            "Object",
-                            ""
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ResetObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"FlashTimer\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ObjectTimer"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"FlashDurationTimer\"",
-                            "Object.Behavior::PropertyFlashDuration()"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "Flash::Flash::Stop"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            ""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Make the specified object(s) blink for the given duration.",
-              "fullName": "Flash (blink)",
-              "functionType": "Action",
-              "name": "Flash",
-              "private": false,
-              "sentence": "Make _PARAM0_ blink for _PARAM2_ seconds",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Egal"
-                      },
-                      "parameters": [
-                        "GetArgumentAsNumber(\"FlashDuration\")",
-                        ">",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Object",
-                        "\"FlashDurationTimer\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::SetPropertyFlashDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"FlashDuration\")"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::SetPropertyIsFlashing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "yes"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Duration of the blinking, in seconds",
-                  "longDescription": "",
-                  "name": "FlashDuration",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "expression"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Check if the specified objects are flashing.",
-              "fullName": "Is object flashing",
-              "functionType": "Condition",
-              "name": "IsFlashing",
-              "private": false,
-              "sentence": "_PARAM0_ is flashing",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "False"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::PropertyIsFlashing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetReturnBoolean"
-                      },
-                      "parameters": [
-                        "True"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onOwnerRemovedFromScene",
-              "private": false,
-              "sentence": "",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::Stop"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "",
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onDeActivate",
-              "private": false,
-              "sentence": "",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::Stop"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "Stop the flashing of the specified object.",
-              "fullName": "Stop flashing",
-              "functionType": "Action",
-              "name": "Stop",
-              "private": false,
-              "sentence": "Stop flashing _PARAM0_",
-              "events": [
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::PropertyIsFlashing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Object",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Flash::Flash::SetPropertyIsFlashing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "no"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                }
-              ],
-              "parameters": [
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Object",
-                  "longDescription": "",
-                  "name": "Object",
-                  "optional": false,
-                  "supplementaryInformation": "",
-                  "type": "object"
-                },
-                {
-                  "codeOnly": false,
-                  "defaultValue": "",
-                  "description": "Behavior",
-                  "longDescription": "",
-                  "name": "Behavior",
-                  "optional": false,
-                  "supplementaryInformation": "Flash::Flash",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "0.1",
-              "type": "Number",
-              "label": "Half period (time during which object is invisible), in seconds",
-              "description": "",
-              "extraInformation": [],
-              "hidden": false,
-              "name": "HalfPeriodTime"
-            },
-            {
-              "value": "",
-              "type": "Boolean",
-              "label": "",
-              "description": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "IsFlashing"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "label": "",
-              "description": "",
-              "extraInformation": [],
-              "hidden": true,
-              "name": "FlashDuration"
-            }
-          ]
-        }
-      ]
-    },
     {
       "author": "@4ian",
       "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",

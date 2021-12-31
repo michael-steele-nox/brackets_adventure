@@ -53,9 +53,9 @@
      showgrid="true"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="-152"
-     inkscape:cx="3125"
-     inkscape:zoom="0.5"
+     inkscape:cy="2117.0777"
+     inkscape:cx="6368.9108"
+     inkscape:zoom="0.70710678"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -4839,45 +4839,6 @@
            sodipodi:role="line">back</tspan></text>
     </g>
     <rect
-       y="65.262543"
-       x="620.7699"
-       height="35.71875"
-       width="80.697914"
-       id="rect5064"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\rect5072.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <g
-       style="opacity:1"
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\rect5072.png"
-       id="g6106">
-      <text
-         id="text5068"
-         y="94.335876"
-         x="621.99738"
-         style="font-style:normal;font-weight:normal;font-size:35.3617px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.264583px"
-           y="94.335876"
-           x="621.99738"
-           id="tspan5066"
-           sodipodi:role="line">back</tspan></text>
-      <text
-         id="text5072"
-         y="94.865036"
-         x="622.52655"
-         style="font-style:normal;font-weight:normal;font-size:35.3617px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.264583px"
-           y="94.865036"
-           x="622.52655"
-           id="tspan5070"
-           sodipodi:role="line">back</tspan></text>
-    </g>
-    <rect
        y="1092.8793"
        x="809.68048"
        height="67.73333"
@@ -6228,8 +6189,8 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
-       style="opacity:0;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
+       style="opacity:1;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill"
        id="rect2121"
        width="86.254166"
        height="86.254166"
@@ -6238,21 +6199,21 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        d="m 1607.0793,559.99578 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
        style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        id="path2123" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        id="path2125"
        style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        d="m 1607.6085,560.52496 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        y="568.46246"
        x="1607.0792"
        height="69.320831"
@@ -6262,14 +6223,14 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        d="m 1608.6669,561.5833 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
        style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        id="path2129" />
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        id="text2133"
        y="618.75952"
        x="1642.316"
@@ -6279,11 +6240,11 @@
          y="618.75952"
          x="1642.316"
          id="tspan2131"
-         sodipodi:role="line">3</tspan></text>
+         sodipodi:role="line">2</tspan></text>
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1642.8452"
@@ -6293,11 +6254,11 @@
          id="tspan2135"
          x="1642.8452"
          y="619.2887"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke-width:0.918204px">3</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke-width:0.918204px">2</tspan></text>
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\3_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_normal.png"
        id="text2141"
        y="620.34705"
        x="1643.9036"
@@ -6307,69 +6268,7 @@
          y="620.34705"
          x="1643.9036"
          id="tspan2139"
-         sodipodi:role="line">3</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       y="559.99579"
-       x="1725.6125"
-       height="86.254166"
-       width="86.254166"
-       id="rect2143"
-       style="opacity:0;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       id="path2145"
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
-       d="m 1734.0793,559.99571 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       d="m 1734.6085,560.52489 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
-       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
-       id="path2147" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       style="fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill;opacity:1"
-       id="rect2149"
-       width="69.320717"
-       height="69.320831"
-       x="1734.0792"
-       y="568.46246" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1769.316"
-       y="618.75952"
-       id="text2155"><tspan
-         sodipodi:role="line"
-         id="tspan2153"
-         x="1769.316"
-         y="618.75952"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.918204px">3</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\3_pressed.png"
-       id="text2159"
-       y="619.2887"
-       x="1769.8452"
-       style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke-width:0.918204px"
-         y="619.2887"
-         x="1769.8452"
-         id="tspan2157"
-         sodipodi:role="line">3</tspan></text>
+         sodipodi:role="line">2</tspan></text>
     <rect
        y="661.59583"
        x="1183.746"
@@ -6638,7 +6537,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        style="opacity:1;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill"
        id="rect2343"
        width="86.254166"
@@ -6648,21 +6547,21 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        d="m 1597.0254,676.94155 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
        style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        id="path2345" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        id="path2347"
        style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        d="m 1597.5546,677.47073 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 V 685.9374 Z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        y="685.40833"
        x="1597.0253"
        height="69.320831"
@@ -6672,79 +6571,31 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        id="path2351"
        style="opacity:1;fill:#ffffff;stroke-width:2.64583;paint-order:stroke markers fill"
        d="m 1623.9217,694.38863 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        d="m 1624.4509,694.9178 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z"
        style="opacity:1;fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill"
        id="path2353" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        id="path2355"
        style="opacity:1;fill:#ffffff;stroke-width:2.64583;paint-order:stroke markers fill"
        d="m 1625.5092,695.97614 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9701 v 6.97013 6.96957 6.97013 h 6.9701 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_normal.png"
        d="m 1598.613,678.52907 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
        style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
        id="path2357" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       y="678.52911"
-       x="1717.1459"
-       height="86.254166"
-       width="86.254166"
-       id="rect2359"
-       style="opacity:1;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       id="path2361"
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
-       d="m 1725.6128,678.52905 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       d="m 1726.142,679.05823 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 V 687.5249 Z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
-       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;opacity:1"
-       id="path2363" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       style="fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill;opacity:1"
-       id="rect2365"
-       width="69.320717"
-       height="69.320831"
-       x="1725.6125"
-       y="686.99579" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       d="m 1752.5091,695.97613 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z"
-       style="opacity:1;fill:#ffffff;stroke-width:2.64583;paint-order:stroke markers fill"
-       id="path2367" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       inkscape:export-filename="D:\9. YandexDisc\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
-       id="path2369"
-       style="opacity:1;fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill"
-       d="m 1753.0383,696.5053 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z" />
     <path
        d="m 821.26658,180.58331 v 8.46667 h 8.4667 33.8667 8.4666 v -8.46667 h -8.4666 -33.8667 z m 50.8,8.46667 v 8.46666 h 8.4667 v -8.46666 z m 8.4667,8.46666 v 8.46667 33.86667 8.46666 h 8.4667 v -8.46666 -33.86667 -8.46667 z m 0,50.8 h -8.4667 v 8.46667 h 8.4667 z m -8.4667,8.46667 h -8.4666 -33.8667 -8.4667 v 8.46667 h 8.4667 33.8667 8.4666 z m -50.8,0 v -8.46667 h -8.4666 v 8.46667 z m -8.4666,-8.46667 v -8.46666 -33.86667 -8.46667 h -8.4667 v 8.46667 33.86667 8.46666 z m 0,-50.8 h 8.4666 v -8.46666 h -8.4666 z"
        style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:5.29167;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
@@ -6858,8 +6709,8 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
     <rect
-       y="11.576484"
-       x="747.15912"
+       y="18.45565"
+       x="737.63409"
        height="37.041668"
        width="179.91666"
        id="rect20675"
@@ -6867,86 +6718,287 @@
        inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-normal.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <g
-       id="g22817"
-       transform="translate(11.377093,-7.4083335)"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-normal.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       style="opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="737.35608"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="739.20819"
+       y="52.701588"
+       id="text21744"><tspan
+         sodipodi:role="line"
+         id="tspan21742"
+         x="739.20819"
+         y="52.701588"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="739.73737"
+       y="53.230755"
+       id="text21722"><tspan
+         sodipodi:role="line"
+         id="tspan21720"
+         x="739.73737"
          y="53.230755"
-         id="text21744"><tspan
-           sodipodi:role="line"
-           id="tspan21742"
-           x="737.35608"
-           y="53.230755"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="737.88525"
-         y="53.759922"
-         id="text21722"><tspan
-           sodipodi:role="line"
-           id="tspan21720"
-           x="737.88525"
-           y="53.759922"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.04896px">continue</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="739.47278"
-         y="55.347424"
-         id="text20673"><tspan
-           sodipodi:role="line"
-           id="tspan20671"
-           x="739.47278"
-           y="55.347424"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
-    </g>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.04896px">continue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="741.32489"
+       y="54.818256"
+       id="text20673"><tspan
+         sodipodi:role="line"
+         id="tspan20671"
+         x="741.32489"
+         y="54.818256"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
     <rect
-       y="57.974495"
-       x="747.15912"
+       y="63.567123"
+       x="621.82825"
+       height="35.71875"
+       width="80.697914"
+       id="rect2031"
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.396875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\back_button-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       id="text2035"
+       y="92.640457"
+       x="623.05573"
+       style="font-style:normal;font-weight:normal;font-size:35.3617px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\back_button-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.264583px"
+         y="92.640457"
+         x="623.05573"
+         id="tspan2033"
+         sodipodi:role="line">back</tspan></text>
+    <text
+       id="text2043"
+       y="94.227936"
+       x="625.17242"
+       style="font-style:normal;font-weight:normal;font-size:35.3617px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\back_button-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.264583px"
+         y="94.227936"
+         x="625.17242"
+         id="tspan2041"
+         sodipodi:role="line">back</tspan></text>
+    <text
+       id="text2039"
+       y="93.169617"
+       x="623.5849"
+       style="font-style:normal;font-weight:normal;font-size:35.3617px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\back_button-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:35.3617px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.264583px"
+         y="93.169617"
+         x="623.5849"
+         id="tspan2037"
+         sodipodi:role="line">back</tspan></text>
+    <rect
+       y="60.788982"
+       x="736.57574"
        height="37.041668"
        width="179.91666"
-       id="rect23867"
+       id="rect2053"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.60347;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
        inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-pressed.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96" />
-    <g
-       id="g23881"
-       transform="translate(11.377093,38.989656)"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       x="738.14984"
+       y="95.03492"
+       id="text2057"
        inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-pressed.png"
        inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2055"
+         x="738.14984"
+         y="95.03492"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       x="740.26654"
+       y="97.151588"
+       id="text2065"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2063"
+         x="740.26654"
+         y="97.151588"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:1"
+       x="738.67902"
+       y="95.564087"
+       id="text2061"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\menu\continue-pressed.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan2059"
+         x="738.67902"
+         y="95.564087"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.04896px">continue</tspan></text>
+    <rect
        inkscape:export-ydpi="96"
-       style="opacity:1">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="737.35608"
-         y="53.230755"
-         id="text23871"><tspan
-           sodipodi:role="line"
-           id="tspan23869"
-           x="737.35608"
-           y="53.230755"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:1.04896px">continue</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.7558px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.04896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="737.88525"
-         y="53.759922"
-         id="text23875"><tspan
-           sodipodi:role="line"
-           id="tspan23873"
-           x="737.88525"
-           y="53.759922"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:44.7558px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:1.04896px">continue</tspan></text>
-    </g>
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       style="opacity:1;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect5565"
+       width="86.254166"
+       height="86.254166"
+       x="1718.7235"
+       y="559.99579" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       d="m 1727.1902,559.99578 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
+       style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path5567" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       d="m 1728.7778,561.5833 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
+       style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path5573" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       id="path5569"
+       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1727.7194,560.52496 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       y="568.46246"
+       x="1727.1902"
+       height="69.320831"
+       width="69.320717"
+       id="rect5571"
+       style="opacity:1;fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       id="text5577"
+       y="618.75952"
+       x="1762.427"
+       style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.918204px"
+         y="618.75952"
+         x="1762.427"
+         id="tspan5575"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       id="text5585"
+       y="620.34705"
+       x="1764.0145"
+       style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.918204px"
+         y="620.34705"
+         x="1764.0145"
+         id="tspan5583"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\2_pressed.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:43.8156px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.918204px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1762.9562"
+       y="619.2887"
+       id="text5581"><tspan
+         sodipodi:role="line"
+         id="tspan5579"
+         x="1762.9562"
+         y="619.2887"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:43.8156px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;stroke-width:0.918204px">2</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       style="opacity:1;fill:#999999;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="rect7783"
+       width="86.254166"
+       height="86.254166"
+       x="1708.6794"
+       y="676.94165" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       d="m 1717.1462,676.94155 v 8.46668 h 67.7332 v -8.46668 z m 67.7332,8.46668 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
+       style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path7785" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       d="m 1718.7338,678.52907 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 v -67.73333 z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z"
+       style="opacity:1;fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path7797" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       id="path7787"
+       style="opacity:1;fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1717.6754,677.47073 v 8.46667 h 67.7332 v -8.46667 z m 67.7332,8.46667 v 67.73333 h 8.4667 V 685.9374 Z m -67.7332,0 h -8.4667 v 67.73333 h 8.4667 z m 0,67.73333 v 8.46667 h 67.7327 v -8.46667 z" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       y="685.40833"
+       x="1717.1461"
+       height="69.320831"
+       width="69.320717"
+       id="rect7789"
+       style="opacity:1;fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       id="path7791"
+       style="opacity:1;fill:#ffffff;stroke-width:2.64583;paint-order:stroke markers fill"
+       d="m 1744.0425,694.38863 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       id="path7795"
+       style="opacity:1;fill:#ffffff;stroke-width:2.64583;paint-order:stroke markers fill"
+       d="m 1745.63,695.97614 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9701 v 6.97013 6.96957 6.97013 h 6.9701 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\level_number\locked_pressed.png"
+       d="m 1744.5717,694.9178 v 6.9696 h 6.9701 6.9701 v -6.9696 h -6.9701 z m 13.9402,6.9696 v 6.97013 6.97011 h -6.9701 -6.9701 v -6.97011 -6.97013 h -6.9696 v 6.97013 6.97011 h -6.9702 v 6.97013 6.96957 6.97013 h 6.9702 v 6.97013 h 6.9696 6.9701 6.9701 6.9696 v -6.97013 h 6.9701 v -6.97013 -6.96957 -6.97013 h -6.9701 v -6.97011 -6.97013 z m -13.9402,20.91037 h 6.9701 6.9701 v 6.96957 h -4.6772 v 6.97013 h -2.2929 -2.9476 v -6.97013 h -4.0225 z"
+       style="opacity:1;fill:#000000;stroke-width:2.64583;paint-order:stroke markers fill"
+       id="path7793" />
   </g>
 </svg>
