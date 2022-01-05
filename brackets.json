@@ -1362,6 +1362,69 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "img/fly/fly_dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "img\\fly\\fly_dead.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4876,7 +4939,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.41000000000000236,
+        "zoomFactor": 0.5100000000000023,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4911,6 +4974,9 @@
           "objects": [
             {
               "name": "Slime"
+            },
+            {
+              "name": "Fly"
             }
           ]
         },
@@ -4937,8 +5003,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": 96,
-          "y": -416,
+          "x": 1504,
+          "y": -608,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -5193,8 +5259,8 @@
           "name": "cloud",
           "persistentUuid": "78f5b143-01de-440b-9e24-41e7ef972ded",
           "width": 448,
-          "x": 1280,
-          "y": -704,
+          "x": 1408,
+          "y": -832,
           "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
@@ -7504,27 +7570,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "GoRight",
-          "persistentUuid": "df0a05dd-8017-4794-bc01-bdcba462c09d",
-          "width": 0,
-          "x": 1536,
-          "y": -64,
-          "zOrder": 225,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "GoLeft",
           "persistentUuid": "dce3efa9-90ab-4f58-95a0-8710da5457ba",
           "width": 0,
-          "x": 1920,
-          "y": -64,
+          "x": 2048,
+          "y": -640,
           "zOrder": 226,
           "numberProperties": [],
           "stringProperties": [],
@@ -8406,6 +8456,70 @@
           "x": 1024,
           "y": -704,
           "zOrder": 308,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "0337921d-6cab-4353-9d2f-9dfc70f2d331",
+          "width": 0,
+          "x": 1536,
+          "y": -64,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoRight",
+          "persistentUuid": "d7e79b25-4b96-4861-8fb7-1db8e54ecc7c",
+          "width": 0,
+          "x": 1664,
+          "y": -640,
+          "zOrder": 225,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "1f5b7b2f-c165-42f1-8ba4-f33c3ed52b31",
+          "width": 0,
+          "x": 1920,
+          "y": -64,
+          "zOrder": 226,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fly",
+          "persistentUuid": "708acb12-4787-49db-aa02-4069436b7097",
+          "width": 0,
+          "x": 1984,
+          "y": -640,
+          "zOrder": 309,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11585,6 +11699,182 @@
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fly",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 500,
+              "canGrabPlatforms": false,
+              "deceleration": 1500,
+              "gravity": 0,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 400,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 0,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.10000000149011612,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\fly\\fly_dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -26222,7 +26512,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.32999999999999535,
+        "zoomFactor": 0.22999999999999476,
         "windowMask": false
       },
       "objectsGroups": [
@@ -26661,9 +26951,9 @@
           "name": "bg_cloud",
           "persistentUuid": "2b99251c-2528-49a1-936f-265eb3f21e76",
           "width": 512,
-          "x": 1344,
+          "x": 1280,
           "y": -1472,
-          "zOrder": 301,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26983,7 +27273,7 @@
           "width": 512,
           "x": 512,
           "y": -896,
-          "zOrder": 301,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26997,9 +27287,9 @@
           "name": "bg_cloud",
           "persistentUuid": "b1110894-7dd8-4196-b794-ec94b52c907b",
           "width": 512,
-          "x": 1792,
-          "y": -960,
-          "zOrder": 301,
+          "x": 1984,
+          "y": 640,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27208,22 +27498,6 @@
           "x": -1152,
           "y": -1024,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 46,
-          "layer": "",
-          "locked": false,
-          "name": "spikes",
-          "persistentUuid": "9fb64176-22fe-432c-bcba-57498fefda05",
-          "width": 192,
-          "x": 1728,
-          "y": 1042,
-          "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27621,8 +27895,8 @@
           "name": "ground_green",
           "persistentUuid": "06a3e52b-382e-4286-b3f2-86fbf3fefafc",
           "width": 64,
-          "x": 1792,
-          "y": -192,
+          "x": 1920,
+          "y": 832,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -28151,7 +28425,7 @@
           "width": 512,
           "x": 1152,
           "y": -320,
-          "zOrder": 301,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28535,7 +28809,7 @@
           "width": 512,
           "x": -1728,
           "y": -576,
-          "zOrder": 301,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28551,7 +28825,7 @@
           "width": 512,
           "x": -1536,
           "y": 320,
-          "zOrder": 301,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28676,8 +28950,8 @@
           "locked": false,
           "name": "ground_green",
           "persistentUuid": "cecc2498-111e-420a-89be-a5117021ad54",
-          "width": 640,
-          "x": 1920,
+          "width": 576,
+          "x": 1984,
           "y": 832,
           "zOrder": 10,
           "numberProperties": [],
@@ -28776,6 +29050,54 @@
           "x": 832,
           "y": -576,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "caf53701-4e08-4243-8d45-393d244f4679",
+          "width": 64,
+          "x": 1792,
+          "y": -192,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "dab55ff1-d871-49e1-9ee9-51314f34584e",
+          "width": 192,
+          "x": 1728,
+          "y": 1042,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "bg_cloud",
+          "persistentUuid": "8b3002cb-d9b5-430b-8b7a-a047191a3f28",
+          "width": 512,
+          "x": 1792,
+          "y": -960,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32531,7 +32853,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "UI",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -35174,7 +35496,7 @@
                   },
                   "parameters": [
                     "Fly",
-                    "-300",
+                    "-200",
                     "0",
                     "0"
                   ],
@@ -35232,7 +35554,7 @@
                   },
                   "parameters": [
                     "Fly",
-                    "300",
+                    "200",
                     "0",
                     "0"
                   ],
