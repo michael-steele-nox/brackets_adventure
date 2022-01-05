@@ -41,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6082429"
-     inkscape:cx="711.64625"
-     inkscape:cy="2007.7813"
+     inkscape:zoom="0.28429986"
+     inkscape:cx="5661.2761"
+     inkscape:cy="1199.4378"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -4255,11 +4255,12 @@
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:42.2574px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.264583px">+</tspan></text>
     <g
        aria-label="Cloud"
-       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#f6d5ff;fill-opacity:1;stroke:none;stroke-width:0.048682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:11.2889px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.2;fill:#f6d5ff;fill-opacity:1;stroke:none;stroke-width:0.048682px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="g1432"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
-       transform="matrix(4.923078,0,0,5.9999975,280.40098,-1505.0522)">
+       transform="matrix(4.923078,0,0,5.9999975,308.32044,-1514.3586)"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\13. gameDev\brackets_adventure\img\bg_cloud.png">
       <path
          d="m 182.55746,330.81595 h -0.70556 -0.70555 -0.70556 -0.70555 v -0.70556 h -0.70556 v -0.70555 h -0.70555 v -0.70556 -0.70555 -0.70556 -0.70555 -0.70556 -0.70556 -0.70555 -0.70556 h 0.70555 v -0.70555 h 0.70556 v -0.70556 h 0.70555 0.70556 0.70555 0.70556 0.70556 v 0.70556 h 0.70555 v 0.70555 0.70556 0.70555 h -0.70555 -0.70556 -0.70556 v -0.70555 -0.70556 -0.70555 h -0.70555 -0.70556 v 0.70555 0.70556 0.70555 0.70556 0.70556 0.70555 0.70556 0.70555 0.70556 0.70555 h 0.70556 0.70555 v -0.70555 -0.70556 -0.70555 h 0.70556 0.70556 0.70555 v 0.70555 0.70556 0.70555 h -0.70555 v 0.70556 z"
          style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:11.2889px;font-family:Newsgeek;-inkscape-font-specification:'Newsgeek, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#f6d5ff;fill-opacity:1;stroke-width:0.048682px"
