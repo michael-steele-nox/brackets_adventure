@@ -10,16 +10,16 @@
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "com.github.michael_steele.brackets_adventure",
     "pixelsRounding": false,
     "projectUuid": "1fdae832-e1eb-456c-bc2c-cf681efc5b76",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useDeprecatedZeroAsDefaultZOrder": true,
     "useExternalSourceFiles": false,
-    "version": "0.0.1",
-    "name": "bra[kets-@dventure]",
-    "author": "",
+    "version": "0.0.2",
+    "name": "bra[kets @dventure]",
+    "author": "Michael Steele",
     "windowWidth": 1920,
     "windowHeight": 1080,
     "latestCompilationDirectory": "",
@@ -70,7 +70,9 @@
       "showGDevelopSplash": true,
       "showProgressBar": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "hZM43BzIyHNYiRGQnDeSSYFMSh02"
+    ],
     "extensionProperties": [
       {
         "extension": "AdMob",
@@ -1521,7 +1523,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.3599999999999991,
+        "zoomFactor": 0.33999999999999914,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1589,8 +1591,8 @@
           "name": "play_button",
           "persistentUuid": "684b0ca8-2573-4834-9d76-3e566b213439",
           "width": 0,
-          "x": 839,
-          "y": 352,
+          "x": 840,
+          "y": 263,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1637,8 +1639,8 @@
           "name": "quit_button",
           "persistentUuid": "397215f4-eb5b-4a20-82d5-67823f847362",
           "width": 0,
-          "x": 837,
-          "y": 704,
+          "x": 839,
+          "y": 583,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1680,13 +1682,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "locked": false,
           "name": "continue_button",
           "persistentUuid": "eb7458dd-9ad3-4963-acf1-ec480814415d",
           "width": 0,
-          "x": 651,
-          "y": 180,
+          "x": 640,
+          "y": 100,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1696,13 +1698,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "locked": false,
           "name": "credits_button",
           "persistentUuid": "5ff1f710-db63-4ff5-adf4-d3fc0e2470c6",
           "width": 0,
-          "x": 704,
-          "y": 531,
+          "x": 700,
+          "y": 427,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1902,6 +1904,7 @@
               "CooldownActive": false
             },
             {
+              "jumpSustainTime": 0.2,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "maxFallingSpeed": 700,
@@ -2526,7 +2529,7 @@
                 "",
                 "continue_button",
                 "640",
-                "180",
+                "100",
                 ""
               ],
               "subInstructions": []
@@ -3101,7 +3104,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.41999999999999926,
+        "zoomFactor": 0.4999999999999991,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3119,6 +3122,20 @@
             },
             {
               "name": "back_button"
+            }
+          ]
+        },
+        {
+          "name": "Credits",
+          "objects": [
+            {
+              "name": "Music"
+            },
+            {
+              "name": "Graphics"
+            },
+            {
+              "name": "Engine"
             }
           ]
         }
@@ -3167,24 +3184,8 @@
           "persistentUuid": "087363dd-f531-4587-bff5-0b6c21e526fc",
           "width": 64,
           "x": 192,
-          "y": 192,
+          "y": 128,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "platform_moving",
-          "persistentUuid": "0ca48dd4-dca5-4680-ba17-220c054bc149",
-          "width": 2688,
-          "x": -384,
-          "y": 1024,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3225,13 +3226,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "locked": false,
           "name": "Music",
           "persistentUuid": "8e987dda-ff95-47ca-867f-f50a850c7414",
           "width": 0,
           "x": 448,
-          "y": 510,
+          "y": 446,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3241,7 +3242,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "locked": false,
           "name": "Graphics",
           "persistentUuid": "bb416e5e-e98c-4873-86ff-529cf9ea791b",
@@ -3257,13 +3258,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "UI",
           "locked": false,
           "name": "Engine",
           "persistentUuid": "f2292aff-a3f7-47d1-9b51-1b87971353b2",
           "width": 0,
           "x": 448,
-          "y": 640,
+          "y": 512,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -3281,6 +3282,86 @@
           "x": 64,
           "y": 64,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "platform_up_down",
+          "persistentUuid": "cc96e666-3f52-4aa6-9c5e-12633eb1eb3c",
+          "width": 192,
+          "x": 128,
+          "y": 256,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoUp",
+          "persistentUuid": "10e74543-a06c-4968-8f35-60a464f44cdf",
+          "width": 0,
+          "x": 128,
+          "y": 896,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoDown",
+          "persistentUuid": "343213aa-894b-4449-b5a2-50021b278a61",
+          "width": 0,
+          "x": 128,
+          "y": 192,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GoLeft",
+          "persistentUuid": "e6b3d514-d968-4199-80dc-628367b3b9e4",
+          "width": 0,
+          "x": 1664,
+          "y": 192,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "f8d4806a-a068-4af2-840d-9c8e6ef533a9",
+          "width": 3328,
+          "x": -512,
+          "y": 1024,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3959,6 +4040,204 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "name": "GoUp",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GoDown",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-down.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GoRight",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GoLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\arrow-left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "ground_green",
+          "tags": "",
+          "texture": "img\\ground_green.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "platform_up_down",
+          "tags": "",
+          "texture": "img\\platform_up_down.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "events": [
@@ -3970,6 +4249,15 @@
             "includeConfig": 0
           },
           "target": "PlayerMovement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "MovingPlatforms"
         },
         {
           "disabled": false,
@@ -4096,6 +4384,14 @@
                 "",
                 ""
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -6296,7 +6592,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.3900000000000016,
+        "zoomFactor": 0.33000000000000157,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14153,7 +14449,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.6499999999999986,
+        "zoomFactor": 0.22999999999999832,
         "windowMask": false
       },
       "objectsGroups": [
@@ -14308,7 +14604,7 @@
           "width": 320,
           "x": 2752,
           "y": 768,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16974,7 +17270,7 @@
           "width": 320,
           "x": 2496,
           "y": 256,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16990,7 +17286,7 @@
           "width": 320,
           "x": 640,
           "y": 128,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17006,7 +17302,7 @@
           "width": 320,
           "x": 1344,
           "y": 128,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21453,7 +21749,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.32999999999999635,
+        "zoomFactor": 0.1899999999999964,
         "windowMask": false
       },
       "objectsGroups": [
@@ -23906,7 +24202,7 @@
           "width": 320,
           "x": 2176,
           "y": 768,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23922,7 +24218,7 @@
           "width": 320,
           "x": 512,
           "y": 256,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23938,7 +24234,7 @@
           "width": 320,
           "x": 1600,
           "y": 256,
-          "zOrder": 200,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25007,9 +25303,10 @@
               "CooldownActive": false
             },
             {
+              "jumpSpeed": 1000,
+              "jumpSustainTime": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "jumpSpeed": 1000,
               "maxFallingSpeed": 700,
               "ignoreDefaultControls": false,
               "ladderClimbingSpeed": 400,
@@ -29057,7 +29354,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.5899999999999925,
+        "zoomFactor": 0.2699999999999923,
         "windowMask": false
       },
       "objectsGroups": [
@@ -41417,7 +41714,7 @@
                   },
                   "parameters": [
                     "",
-                    "2",
+                    "1",
                     "\"DamageEnemyTimer\""
                   ],
                   "subInstructions": []
@@ -41721,7 +42018,7 @@
               },
               "parameters": [
                 "",
-                "2",
+                "1",
                 "\"DamageTimer\""
               ],
               "subInstructions": []
