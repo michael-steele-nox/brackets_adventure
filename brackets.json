@@ -1845,6 +1845,25 @@
     },
     {
       "height": 64,
+      "name": "ground_green",
+      "tags": "",
+      "texture": "img\\ground_green.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "height": 64,
       "name": "wall_hidden",
       "tags": "",
       "texture": "img\\wall_hidden.png",
@@ -1864,6 +1883,11 @@
     },
     {
       "name": "BackPressed",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "StarsToCount",
       "type": "string",
       "value": ""
     }
@@ -1892,7 +1916,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.4599999999999992,
+        "zoomFactor": 0.4199999999999984,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1976,25 +2000,9 @@
           "name": "hero",
           "persistentUuid": "087363dd-f531-4587-bff5-0b6c21e526fc",
           "width": 64,
-          "x": 192,
-          "y": 192,
+          "x": 64,
+          "y": 128,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
-          "layer": "",
-          "locked": false,
-          "name": "platform_moving",
-          "persistentUuid": "0ca48dd4-dca5-4680-ba17-220c054bc149",
-          "width": 2688,
-          "x": -384,
-          "y": 1024,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2059,6 +2067,262 @@
           "x": 700,
           "y": 427,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "5ae22be6-bf5a-4162-9119-49fb5883874f",
+          "width": 1792,
+          "x": 448,
+          "y": 960,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 256,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "6f681c91-d7e1-4e34-8166-14bf3aa583f4",
+          "width": 64,
+          "x": 448,
+          "y": 704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ground_green",
+          "persistentUuid": "4c2cd209-1878-4558-9e05-54c50b8ef853",
+          "width": 768,
+          "x": -320,
+          "y": 704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "water",
+          "persistentUuid": "7a9206e1-1139-4c33-b9aa-4df9959477da",
+          "width": 1024,
+          "x": 512,
+          "y": 896,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 896,
+          "layer": "",
+          "locked": false,
+          "name": "ladder",
+          "persistentUuid": "69cedce4-efce-4c11-8017-68bb55749811",
+          "width": 64,
+          "x": 0,
+          "y": -192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 448,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "2eaad679-5de5-459d-abf5-ff5afd3be896",
+          "width": 64,
+          "x": 64,
+          "y": 256,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "locked": false,
+          "name": "star_gui",
+          "persistentUuid": "ff397ade-023a-4b1a-9095-e1cf42f76d65",
+          "width": 0,
+          "x": 256,
+          "y": 320,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "UI",
+          "locked": false,
+          "name": "CountStars",
+          "persistentUuid": "66f4a0ce-d0db-4827-a45d-0c18fc71b68d",
+          "width": 192,
+          "x": 448,
+          "y": 320,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "locked": false,
+          "name": "Tutorial",
+          "persistentUuid": "6b88e7e5-52be-4c91-87c2-583bb80252cc",
+          "width": 320,
+          "x": 64,
+          "y": 768,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "star_level",
+          "persistentUuid": "092bdbda-d77f-4aba-919f-3465659580fe",
+          "width": 0,
+          "x": 303,
+          "y": 768,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1152,
+          "layer": "",
+          "locked": false,
+          "name": "platform",
+          "persistentUuid": "6b30a216-4d49-4ea0-bab5-5244b06daad8",
+          "width": 704,
+          "x": 1536,
+          "y": -192,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "36edb605-cb2e-46d6-a112-ede51cfa7e46",
+          "width": 448,
+          "x": 192,
+          "y": 512,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "68e8738c-723e-4b68-8265-27e618d961f4",
+          "width": 1088,
+          "x": 976,
+          "y": 336,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "29c19fb4-5994-4ca2-b33b-cd29e28ffa57",
+          "width": 256,
+          "x": 528,
+          "y": 368,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "1b5d13ef-0d4f-4787-bceb-e25779387de3",
+          "width": 448,
+          "x": 192,
+          "y": 224,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "spikes",
+          "persistentUuid": "099e0bb1-0158-4111-bc01-e080064d7086",
+          "width": 256,
+          "x": 48,
+          "y": 368,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2680,6 +2944,210 @@
           ]
         },
         {
+          "height": 64,
+          "name": "water",
+          "tags": "",
+          "texture": "img\\water.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 64,
+          "name": "ladder",
+          "tags": "",
+          "texture": "img\\ladder.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0,
+              "platformType": "Ladder"
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "platform",
+          "tags": "",
+          "texture": "img\\ground 64.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "platformType": "NormalPlatform",
+              "canBeGrabbed": true,
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "platform_jumpthough",
+          "tags": "",
+          "texture": "img\\platform_jumpthrough.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "name": "coin_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\coin_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "spikes",
+          "tags": "",
+          "texture": "img\\spike.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 50,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
           "name": "credits_button",
           "tags": "",
           "type": "Sprite",
@@ -2749,23 +3217,122 @@
           ]
         },
         {
+          "name": "Bush",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "img\\bush.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 64,
+          "name": "ground_green2",
+          "tags": "",
+          "texture": "img\\ground_green.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
           "bold": false,
           "italic": false,
-          "name": "ChooseLevel",
+          "name": "CountStars",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 20,
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 1,
+              "type": "AnchorBehavior::AnchorBehavior"
+            }
+          ],
+          "string": "0",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 128,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 1,
+            "g": 252,
+            "r": 231
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Tutorial",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 1,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 2,
+              "type": "AnchorBehavior::AnchorBehavior"
+            }
+          ],
+          "string": "Collect     to unlock levels",
+          "font": "font\\Newsgeek.ttf",
+          "characterSize": 64,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         }
       ],
@@ -2814,6 +3381,73 @@
                 "LevelNumber",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"CloudsParallax\"",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "bg_cloud_scroll",
+                "150",
+                "0",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "CountStars",
+                "=",
+                "ToString(GlobalVariable(StarsToCount))"
               ],
               "subInstructions": []
             }
@@ -3402,6 +4036,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": -2147483632,
+          "ambientLightColorG": 6025840,
+          "ambientLightColorR": 24628144,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "BGclouds1",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -4892,7 +5537,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.45999999999999974,
+        "zoomFactor": 0.49999999999999967,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5295,7 +5940,7 @@
           "persistentUuid": "3f0e76d4-ab42-4154-9329-1acf80d1ff14",
           "width": 0,
           "x": 104,
-          "y": -133,
+          "y": -256,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -7943,7 +8588,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.3300000000000015,
+        "zoomFactor": 0.4100000000000014,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11248,8 +11893,8 @@
           "name": "star_level",
           "persistentUuid": "d3d8cbce-1d9b-41ce-a7e5-7bf7e73a0bcd",
           "width": 0,
-          "x": -320,
-          "y": -640,
+          "x": -64,
+          "y": -384,
           "zOrder": 313,
           "numberProperties": [],
           "stringProperties": [],
@@ -15375,80 +16020,211 @@
           "events": []
         },
         {
-          "disabled": false,
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
           "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "name": "Collect Star",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "hero",
-                "gate_lever",
-                "",
-                "",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "gate_lever",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "gate_lever",
+                    "\"gateLeverOn\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds\\open_dor.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "gate",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "star_level",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "StarsToCount",
+                    "=",
+                    "GlobalVariable(LevelNumber)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "star_level",
+                    "\"StarToDelete\"",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "star_level",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "gate_lever",
-                "\"gateLeverOn\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sounds\\open_dor.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "gate",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
+          "parameters": []
         }
       ],
       "layers": [
@@ -15588,7 +16364,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.28999999999999804,
+        "zoomFactor": 0.269999999999998,
         "windowMask": false
       },
       "objectsGroups": [
@@ -18416,6 +19192,22 @@
           "x": 1583,
           "y": 560,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "star_level",
+          "persistentUuid": "b2c9ce1a-1db3-4001-9340-bc4876e513ed",
+          "width": 0,
+          "x": 256,
+          "y": 640,
+          "zOrder": 315,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22162,6 +22954,15 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PickUpStarLevel"
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -22576,7 +23377,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.30999999999999667,
+        "zoomFactor": 0.3099999999999966,
         "windowMask": false
       },
       "objectsGroups": [
@@ -22915,14 +23716,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "8e119928-41a9-47da-a540-86010985c602",
           "width": 64,
           "x": 1152,
-          "y": 658,
+          "y": 672,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -22979,14 +23780,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "adf40d9e-0c5b-4f06-84ff-a5f5e9a53788",
           "width": 64,
           "x": 1472,
-          "y": 658,
+          "y": 672,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -23747,14 +24548,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "79d55d8c-f1f6-4fa6-85b4-3966343d068e",
           "width": 64,
           "x": 512,
-          "y": 658,
+          "y": 672,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -24339,14 +25140,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "9c967a29-d02a-4e66-83a6-769d86ab2bc2",
           "width": 64,
           "x": 832,
-          "y": 658,
+          "y": 672,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -24835,14 +25636,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 46,
+          "height": 32,
           "layer": "",
           "locked": false,
           "name": "spikes",
           "persistentUuid": "3d28c416-4fea-4ee1-b647-7020e2e5d2cc",
           "width": 64,
           "x": 1792,
-          "y": 658,
+          "y": 672,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -25708,6 +26509,22 @@
           "x": 751,
           "y": 49,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "star_level",
+          "persistentUuid": "768e6797-165f-419d-abfc-2b465eed5987",
+          "width": 0,
+          "x": 3072,
+          "y": 640,
+          "zOrder": 314,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29451,6 +30268,15 @@
             "includeConfig": 0
           },
           "target": "JumpTrampoline"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PickUpStarLevel"
         },
         {
           "disabled": false,
@@ -33996,6 +34822,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "star_level",
+          "persistentUuid": "1d03f2e5-62c9-4a83-bd8d-48840792eab1",
+          "width": 0,
+          "x": 2240,
+          "y": 960,
+          "zOrder": 321,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37887,6 +38729,15 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "PickUpStarLevel"
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -38301,7 +39152,7 @@
         "gridColor": 9442302,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.1499999999999991,
+        "zoomFactor": 0.3899999999999991,
         "windowMask": false
       },
       "objectsGroups": [
@@ -38374,8 +39225,8 @@
           "name": "hero",
           "persistentUuid": "b0cbb703-2b78-4b58-b60c-87cb8b96027b",
           "width": 64,
-          "x": -160,
-          "y": 2848,
+          "x": 2464,
+          "y": -608,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -42601,6 +43452,22 @@
           "x": -64,
           "y": 2752,
           "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "star_level",
+          "persistentUuid": "d6b5b84b-4356-4ed4-8c10-b053ca7604b9",
+          "width": 0,
+          "x": 2368,
+          "y": -640,
+          "zOrder": 330,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -51849,24 +52716,218 @@
           "events": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Collect Star",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "gate_lever",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "gate_lever",
+                    "\"gateLeverOn\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds\\open_dor.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "gate",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "hero",
+                    "star_level",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "StarsToCount",
+                    "=",
+                    "GlobalVariable(LevelNumber)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SceneStar",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectTimer"
+                  },
+                  "parameters": [
+                    "star_level",
+                    "\"StarToDelete\"",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "star_level",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
           "disabled": true,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Life",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "actions": [],
           "events": []
         }
       ]
